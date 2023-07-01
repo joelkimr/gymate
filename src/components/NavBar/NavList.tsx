@@ -5,7 +5,7 @@ const CustomLink = ({ href = "", title = "" }) => {
   return (
     <Link
       href={href}
-      className='cursor-pointer hover:text-[#ff0336] transition duration-500'>
+      className='cursor-pointer hover:text-secondary transition duration-300'>
       {title}
     </Link>
   );
@@ -14,7 +14,7 @@ const CustomLink = ({ href = "", title = "" }) => {
 function NavList() {
   return (
     <>
-      <ul className='flex gap-9 text-white text-sm font-medium'>
+      <ul className='flex gap-7 text-white text-sm font-medium'>
         <CustomLink href='#' title='Home' />
         <CustomLink href='#' title='About' />
         <CustomLink href='#' title='Gallery' />

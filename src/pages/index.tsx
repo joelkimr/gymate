@@ -1,7 +1,14 @@
 import React from "react";
+import Home from "@/components/HomePage/Home";
+import About from "@/components/About/about";
 
 const index = () => {
-  return <div className='m-24'>index</div>;
+  return (
+    <>
+      <Home />
+      <About />
+    </>
+  );
 };
 
 export default index;

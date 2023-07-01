@@ -13,6 +13,9 @@ module.exports = {
             fontFamily: {
                 mont: ['var(--font-mont)', ...fontFamily.sans],
             },
+            colors: {
+                secondary: '#FF0336',
+            },
         },
     },
     plugins: [],

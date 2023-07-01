@@ -1,15 +1,27 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../images/logo/logo.svg";
 import Image from "next/image";
 import NavList from "./NavList";
 
 const NavBar = () => {
+  const [sticky, setSticky] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 10) {
+      setSticky(true);
+    } else {
+      setSticky(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
   return (
     <>
       <nav
-        className='flex flex-row bg-transparent items-center justify-between py-3 px-7  fixed top-0 left-0 right-0 w-full z-50
-         shadow-xl bg-black'>
+        className={`flex flex-row bg-transparent items-center justify-between py-3 px-7 fixed top-0 left-0 right-0 w-full z-50 ${
+          sticky ? "shadow-xl !bg-black" : ""
+        }`}>
         <Link href='/'>
           <Image src={Logo} alt='logo_img' />
         </Link>
