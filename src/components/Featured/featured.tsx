@@ -27,7 +27,7 @@ function Featured() {
             </h2>
           </div>
           {/* grid */}
-          <div className='grid grid-cols-4 grid-rows-2 gap-7 h-full mt-2'>
+          <div className='grid grid-cols-4 grid-rows-2 gap-4 h-full mt-2'>
             <div className='item-0-div relative'>
               <Image
                 src={Cycling}
@@ -120,8 +120,8 @@ function Featured() {
             <h2 className='text-white font-bold text-2xl max-w-6xl px-7'>
               We Are Always Providing Best Fitness Service For You
             </h2>
-            <div className='bg-black w-44 text-center text-white font-[600] p-4 hover:text-red-200 transition duration-300 rounded-sm'>
-              <Link href='#'>TAKE A TOUR</Link>
+            <div className='bg-white w-44 text-center text-black/90 text-sm font-[600] p-4 hover:border hover:border-gray-500 transition duration-300 rounded-sm'>
+              <Link href='#'>JOIN US ...</Link>
             </div>
           </div>
         </div>
