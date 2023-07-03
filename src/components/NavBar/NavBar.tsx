@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../../images/logo/logo.svg";
 import Image from "next/image";
 import NavList from "./NavList";
@@ -14,8 +14,9 @@ const NavBar = () => {
       setSticky(false);
     }
   };
-
-  window.addEventListener("scroll", handleScroll);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
   return (
     <>
       <nav
