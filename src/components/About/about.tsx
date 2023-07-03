@@ -108,7 +108,7 @@ function About() {
             <Image
               src={Background}
               alt='home_image'
-              className='w-full min-h-[999px]'
+              className='w-full min-h-[65rem]'
             />
           </div>
         </div>
