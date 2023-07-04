@@ -31,8 +31,8 @@ const NavBar = () => {
         </div>
         <div className='border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md'>
           <Link href='#' className='flex items-center '>
-            <i className='bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md'></i>
-            <h3 className='text-white text-xs font-semibold uppercase ml-2 mr-2 tracking-wider'>
+            <i className='bg-[#FF0336] text-white text-xl py-2 px-3 rounded-md'></i>
+            <h3 className='text-white text-[11px] font-[600] uppercase ml-2 mr-2'>
               join class now
             </h3>
           </Link>

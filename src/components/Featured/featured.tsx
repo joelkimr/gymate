@@ -7,6 +7,7 @@ import Meditation from "../../images/features/meditation.jpg";
 import MMA from "../../images/features/mma.jpg";
 import Workout from "../../images/features/workout.jpg";
 import Link from "next/link";
+// impport BsFacebook,BsTwitter,FaInstagram
 
 function Featured() {
   return (
@@ -37,7 +38,7 @@ function Featured() {
               <div className='absolute z-10 bottom-10 left-10'>
                 <p className='text-white text-2xl font-bold'>Cycling</p>
                 <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
-                  Wednesday: 9:00am-10:00am
+                  Monday: 9:00am-10:00am
                 </p>
               </div>
             </div>
@@ -51,7 +52,7 @@ function Featured() {
               <div className='absolute z-10 bottom-10 left-10'>
                 <p className='text-white text-2xl font-bold'>Karate</p>
                 <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
-                  Friday: 10:00am-11:00am
+                  Tuersday: 10:00am-11:00am
                 </p>
               </div>
             </div>
@@ -65,7 +66,7 @@ function Featured() {
               <div className='absolute z-10 bottom-10 left-10'>
                 <p className='text-white text-2xl font-bold'>Power</p>
                 <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
-                  Saturday: 9:00am-10:00am
+                  Wednesday: 9:00am-10:00am
                 </p>
               </div>
             </div>
@@ -79,7 +80,7 @@ function Featured() {
               <div className='absolute z-10 bottom-10 left-10'>
                 <p className='text-white text-2xl font-bold'>Meditation</p>
                 <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
-                  Friday: 1:00pm-2:00pm
+                  Thursday: 1:00pm-2:00pm
                 </p>
               </div>
             </div>
@@ -93,7 +94,7 @@ function Featured() {
               <div className='absolute z-10 bottom-10 left-10'>
                 <p className='text-white text-2xl font-bold'>Martial Arts</p>
                 <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
-                  Sunday: 6:00pm-7:00pm
+                  Friday: 6:00pm-7:00pm
                 </p>
               </div>
             </div>
@@ -107,7 +108,7 @@ function Featured() {
               <div className='absolute z-10 bottom-10 left-10'>
                 <p className='text-white text-2xl font-bold'>Workout</p>
                 <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
-                  Monday: 4:00pm-5:00pm
+                  Saturday: 4:00pm-5:00pm
                 </p>
               </div>
             </div>
