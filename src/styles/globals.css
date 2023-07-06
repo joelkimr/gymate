@@ -400,6 +400,17 @@
 }
 
 
+/* price section */
+
+.pricing-section {
+    background-image: url('../images/pricing/background.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 /*-------------------------------------------------------------------------------*/
 
 
