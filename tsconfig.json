@@ -23,7 +23,8 @@
     "**/*.ts",
     "**/*.tsx",
     "src/components/MainButton.tsx",
-    "src/components/HomePage/Home.tsx"
+    "src/components/HomePage/Home.tsx",
+    "src/components/Pricing/pricingCards.jsx"
   ],
   "exclude": ["node_modules"]
 }

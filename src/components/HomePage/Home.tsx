@@ -3,6 +3,7 @@ import MainButton from "../MainButton";
 import Image from "next/image";
 import Homeimage from "../../images/hero/hero-img.jpg";
 
+
 function Hero() {
   return (
     <>
