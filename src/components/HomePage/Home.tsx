@@ -2,7 +2,9 @@ import TitleBg from "../../images/pricing/titlebg.svg";
 import MainButton from "../MainButton";
 import Image from "next/image";
 import Homeimage from "../../images/hero/hero-img.jpg";
-
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
+import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter";
+import { SiFacebook } from "@react-icons/all-files/si/SiFacebook";
 
 function Hero() {
   return (
@@ -37,9 +39,9 @@ function Hero() {
           <p className='uppercase text-md font-bold tracking-widest'>share</p>
           <span className='w-[35px] bg-[#FF0336] h-[2.5px] mr-6'></span>
           <div className='text-white gap-7 flex mr-7 '>
-            <i className='fa-brands rotate-90 hover:text-[#FF0336] fa-facebook text-3xl cursor-pointer ease-in duration-200 '></i>
-            <i className='fa-brands rotate-90 hover:text-[#FF0336] fa-twitter text-3xl cursor-pointer ease-in duration-200'></i>
-            <i className='fa-brands rotate-90 hover:text-[#FF0336]  fa-linkedin-in text-3xl cursor-pointer ease-in duration-200 '></i>
+            <SiFacebook className='rotate-90 hover:text-blue-800 text-2xl cursor-pointer ease-in duration-200' />
+            <AiOutlineTwitter className='rotate-90 hover:text-sky-500 text-2xl cursor-pointer ease-in duration-200' />
+            <FaInstagram className='rotate-90 hover:text-secondary text-2xl cursor-pointer ease-in duration-200' />
           </div>
         </div>
       </section>

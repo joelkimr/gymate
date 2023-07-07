@@ -7,7 +7,6 @@ import Meditation from "../../images/features/meditation.jpg";
 import MMA from "../../images/features/mma.jpg";
 import Workout from "../../images/features/workout.jpg";
 import Link from "next/link";
-// impport BsFacebook,BsTwitter,FaInstagram
 
 function Featured() {
   return (
@@ -52,7 +51,7 @@ function Featured() {
               <div className='absolute z-10 bottom-10 left-10'>
                 <p className='text-white text-2xl font-bold'>Karate</p>
                 <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
-                  Tuersday: 10:00am-11:00am
+                  Tuesday: 10:00am-11:00am
                 </p>
               </div>
             </div>

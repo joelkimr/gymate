@@ -6,6 +6,9 @@ import TrainerBg from "../../images/trainers/trainer-bg.png";
 import Shape from "../../images/trainers/shape.png";
 import Image from "next/image";
 import TitleRed from "../../images/who-we-are/title-bg.svg";
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
+import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter";
+import { SiFacebook } from "@react-icons/all-files/si/SiFacebook";
 
 function Trainers() {
   const trainers = [
@@ -60,11 +63,10 @@ function Trainers() {
                     <p className='font-medium text-sm text-[#646464]'>
                       {train.job}
                     </p>
-                    <div className='flex gap-8 text-[#646464] w-full justify-center mt-5 text-[1.6rem]'>
-                      <i className='fa-brands fa-facebook-f'></i>
-                      <i className='fa-brands fa-twitter'></i>
-                      <i className='fa-brands fa-instagram'></i>
-                      <i className='fa-regular fa-envelope'></i>
+                    <div className='flex gap-5 text-[#646464] w-full justify-center mt-5 text-2xl'>
+                      <SiFacebook className='text-blue-900 cursor-pointer' />
+                      <AiOutlineTwitter className='text-sky-500 cursor-pointer' />
+                      <FaInstagram className='text-secondary cursor-pointer' />
                     </div>
                   </div>
                 </div>
