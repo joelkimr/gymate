@@ -322,6 +322,13 @@
     left: 0;
     right: 0;
     margin: 0 auto;
+    transition: all .4s ease-in-out;
+}
+
+.box-desc:hover:after {
+    content: "";
+    width: 100%;
+    height: 4px;
 }
 
 
@@ -404,6 +411,14 @@
 
 .pricing-section {
     background-image: url('../images/pricing/background.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cta-section {
+    background-image: url('../images/call/background.jpg');
     object-fit: cover;
     background-size: cover;
     background-position: center;
