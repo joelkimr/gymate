@@ -4,7 +4,7 @@ import Link from "next/link";
 function CtaBanner() {
   return (
     <>
-      <section className='cta-section w-full h-auto'>
+      <section className='cta-section  h-auto  xl:w-full lg:w-[110%]'>
         <div className='container page-padding py-16 text-white'>
           <h2 className='text-4xl font-bold'>Get More Inquiries ?</h2>
           <br />

@@ -16,12 +16,12 @@ import Link from "next/link";
 function About() {
   return (
     <>
-      <section className='flex flex-row gap-2'>
+      <section className='flex flex-row gap-2 xl:w-[100%] lg:w-[110%]'>
         <div className='relative'>
-          <div className='flex flex-row gap-8 mx-72 -mt-20 absolute'>
+          <div className='flex flex-row gap-8 xl:mx-72 lg:mx-16 -mt-20 absolute'>
             <AboutCarts />
           </div>
-          <div className='flex flex-row justify-end top-96 absolute'>
+          <div className='flex flex-row xl:justify-end lg:justify-center xl:mx-0 top-96 absolute xl:gap-0 lg:gap-16'>
             <div className='w-2/5'>
               <div className='relative'>
                 <p className='text-white font-semibold relative text-xs uppercase z-10 pl-16'>
@@ -85,7 +85,7 @@ function About() {
               <Image
                 src={GirlRunning}
                 alt='girl_running'
-                className='w-auto absolute h-[32rem] ml-20 mt-5'
+                className='xl:w-[33rem] lg:w-[23rem] absolute xl:h-[32rem] lg:h-[22rem] xl:ml-20 lg:ml-24 mt-5'
               />
               <div
                 className='flex flex-row-reverse gap-24
@@ -93,14 +93,18 @@ function About() {
                 <Image
                   src={GirlRedBg}
                   alt='bg-red'
-                  className='h-[32rem] mt-4'
+                  className='xl:h-[32rem] lg:h-[22rem] mt-4'
                 />
                 <Image
                   src={GirlWind}
                   alt='bg-wind'
-                  className='absolute flex flex-row top-64 right-16 w-20'
+                  className='absolute flex flex-row xl:top-64 lg:top-44 xl:right-16 lg:right-36 w-20'
                 />
-                <Image src={GirlText} alt='bg-text' className='w-auto' />
+                <Image
+                  src={GirlText}
+                  alt='bg-text'
+                  className='w-auto lg:hidden xl:block'
+                />
               </div>
             </div>
           </div>

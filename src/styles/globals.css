@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.container-hero {
+    max-width: 111.6rem;
+    margin: 0 auto;
+}
+
 .container {
     max-width: 80rem;
     margin: 0 auto;
@@ -9,6 +14,21 @@
 .page-padding {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+}
+
+.hero-section {
+    background-image: url('../images/hero/hero-img.jpg');
+    width: 100%;
+    height: 110vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-text {
+    top: 55%;
+    right: 20px;
+    transform: translate(-50%, -50%);
 }
 
 

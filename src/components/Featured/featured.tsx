@@ -11,8 +11,8 @@ import Link from "next/link";
 function Featured() {
   return (
     <>
-      <section id='featured' className='page-padding py-28 bg-white'>
-        <div className='container'>
+      <section className='page-padding py-28 bg-white'>
+        <div className='container xl:w-auto lg:w-[110%]'>
           <div className='flex flex-col text-center items-center relative '>
             <p className='text-white font-semibold relative text-xs uppercase z-10 p-1'>
               our featured class
@@ -114,7 +114,7 @@ function Featured() {
           </div>
         </div>
       </section>
-      <div className='featured-cta flex justify-center text-left items-center'>
+      <div className='featured-cta flex justify-center text-left items-center  xl:w-auto lg:w-[110%]'>
         <div className='container page-padding'>
           <div className='flex items-center'>
             <h2 className='text-white font-bold text-2xl max-w-6xl px-7'>

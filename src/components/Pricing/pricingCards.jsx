@@ -5,14 +5,14 @@ import Link from "next/link";
 function PricingBox({ img, price, title }) {
   return (
     <>
-      <div className='flex flex-col w-1/3  bg-white shadow-xl relative'>
+      <div className='flex flex-col w-1/3 bg-white shadow-xl relative'>
         <div className='relative'>
           <Image
             src={img}
             alt='pricing_img'
             className='w-full h-full grayscale'
           />
-          <div className='absolute bg-white text-xl font-bold w-[25rem] text-center py-6 text-[#ff0336] -bottom-[18px] left-0 right-0 mx-auto'>
+          <div className='absolute bg-white text-xl font-bold w-[25rem] lg:pl-24 xl:pl-0 xl:text-center py-6 text-[#ff0336] -bottom-[18px] left-0 right-0 mx-auto'>
             {title}
           </div>
         </div>

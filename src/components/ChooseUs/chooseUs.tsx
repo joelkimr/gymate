@@ -11,7 +11,7 @@ import Link from "next/link";
 function ChooseUs() {
   return (
     <>
-      <section className='choose-section py-32 '>
+      <section className='choose-section py-32  xl:w-auto lg:w-[110%]'>
         <div className='container page-padding flex flex-row'>
           <div className='video-div relative w-[50%]'>
             <Image

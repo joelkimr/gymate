@@ -6,7 +6,7 @@ import BlogBox from "./blogBox";
 function Blog() {
   return (
     <>
-      <section id='blog' className='bg-white '>
+      <section className='bg-white  xl:w-auto lg:w-[110%] '>
         <div className='container page-padding py-24'>
           {/* title div -- */}
           <div className='flex flex-col text-center relative items-center'>
