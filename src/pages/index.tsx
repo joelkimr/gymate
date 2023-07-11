@@ -14,17 +14,19 @@ import Footer from "@/components/Footer/footer";
 const index = () => {
   return (
     <>
-      <Home />
-      <About />
-      <Featured />
-      <ChooseUs />
-      <Trainers />
-      <Gallery />
-      {/* <BMI /> */}
-      <Pricing />
-      <Blog />
-      <CallBanner />
-      <Footer />
+      <div className='w-full h-auto'>
+        <Home />
+        <About />
+        <Featured />
+        <ChooseUs />
+        <Trainers />
+        <Gallery />
+        {/* <BMI /> */}
+        <Pricing />
+        <Blog />
+        <CallBanner />
+        <Footer />
+      </div>
     </>
   );
 };

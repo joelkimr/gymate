@@ -5,7 +5,7 @@ import Image from "next/image";
 function Gallery() {
   return (
     <>
-      <section className='relative'>
+      <section className='relative  xl:w-auto lg:w-[110%]'>
         <Image src={BgIcon} alt='bg_img' className='w-64 absolute -top-3' />
 
         <div className='container page-padding py-12'>
