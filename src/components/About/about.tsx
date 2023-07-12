@@ -9,20 +9,19 @@ import GirlRunning from "../../images/who-we-are/girl-run.png";
 import GirlRedBg from "../../images/who-we-are/girl-redbg.svg";
 import GirlText from "../../images/who-we-are/girl-side-text.png";
 import GirlWind from "../../images/who-we-are/wind.png";
-import MainButton from "../MainButton";
 import Image from "next/image";
 import Link from "next/link";
 
 function About() {
   return (
     <>
-      <section className='flex flex-row gap-2 xl:w-[100%] lg:w-[110%]'>
+      <section className='flex flex-row gap-2 xl:w-[100%] lg:w-[110%] md:w-[150%]'>
         <div className='relative'>
-          <div className='flex flex-row gap-8 xl:mx-72 lg:mx-16 -mt-20 absolute'>
+          <div className='flex lg:flex-row md:flex-col lg:gap-8 md:mx-32 xl:mx-72 lg:mx-16 -mt-20 absolute'>
             <AboutCarts />
           </div>
-          <div className='flex flex-row xl:justify-end lg:justify-center xl:mx-0 top-96 absolute xl:gap-0 lg:gap-16'>
-            <div className='w-2/5'>
+          <div className='lg:flex lg:flex-row xl:justify-end lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-0 lg:gap-16 md:top-[60rem] md:items-center lg:ml-0 md:ml-48'>
+            <div className='lg:w-2/5 md:w-3/4'>
               <div className='relative'>
                 <p className='text-white font-semibold relative text-xs uppercase z-10 pl-16'>
                   who we are
@@ -32,10 +31,10 @@ function About() {
                   alt='text_bg'
                   className=' w-52 absolute -top-3'
                 />
-                <h2 className='text-3xl font-bold mb-6 mt-6 w-[60rem]'>
+                <h2 className='lg:text-3xl md:text-4xl font-bold mb-6 mt-6 w-[60rem]'>
                   Take Your Health And Body To Next Level
                 </h2>
-                <p className='text-sm text-[#646464] font-medium '>
+                <p className='lg:text-sm md:text-lg text-[#646464] font-medium '>
                   Take your health and body to the next level with our
                   comprehensive program designed to help you reach your fitness
                   goals.
@@ -46,7 +45,7 @@ function About() {
                   <Image
                     src={TrainersIcon}
                     alt='icon_img'
-                    className={`w-[4rem] mb-6 h-auto`}
+                    className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto`}
                   />
                   <h3 className='uppercase font-bold text-md leading-snug'>
                     professional <br /> trainers
@@ -57,7 +56,7 @@ function About() {
                   <Image
                     src={ModernIcon}
                     alt='icon_img'
-                    className={`w-[4rem] mb-6 h-auto`}
+                    className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto`}
                   />
                   <h3 className='uppercase font-bold text-md leading-snug'>
                     modern <br /> equipments
@@ -68,7 +67,7 @@ function About() {
                   <Image
                     src={LiftIcon}
                     alt='icon_img'
-                    className={`w-[4rem] mb-6 h-auto`}
+                    className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto`}
                   />
                   <h3 className='uppercase font-bold text-md leading-snug'>
                     fancy gym <br />
@@ -76,16 +75,16 @@ function About() {
                   </h3>
                 </div>
               </div>
-              <div className='bg-black/80 w-44 text-center text-white font-[600] p-4 hover:bg-secondary transition duration-300 rounded-sm'>
+              <div className='bg-black/80 lg:w-44 md:w-52 text-center lg:text-base md:text-xl text-white font-[600] p-4 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-60'>
                 <Link href='#'>TAKE A TOUR</Link>
               </div>
             </div>
 
-            <div className='w-2/5'>
+            <div className='w-2/5 md:hidden lg:block'>
               <Image
                 src={GirlRunning}
                 alt='girl_running'
-                className='xl:w-[33rem] lg:w-[23rem] absolute xl:h-[32rem] lg:h-[22rem] xl:ml-20 lg:ml-24 mt-5'
+                className='xl:w-[32rem] lg:w-[23rem] absolute xl:h-[32rem] lg:h-[22rem] xl:ml-20 lg:ml-24 mt-5'
               />
               <div
                 className='flex flex-row-reverse gap-24
@@ -98,7 +97,7 @@ function About() {
                 <Image
                   src={GirlWind}
                   alt='bg-wind'
-                  className='absolute flex flex-row xl:top-64 lg:top-44 xl:right-16 lg:right-36 w-20'
+                  className='absolute flex flex-row xl:top-64 lg:top-72 xl:right-16 lg:right-36 w-20'
                 />
                 <Image
                   src={GirlText}
@@ -112,7 +111,7 @@ function About() {
             <Image
               src={Background}
               alt='home_image'
-              className='w-full min-h-[65rem]'
+              className='w-full lg:min-h-[65rem] md:min-h-[103rem]'
             />
           </div>
         </div>

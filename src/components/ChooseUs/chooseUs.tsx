@@ -11,8 +11,8 @@ import Link from "next/link";
 function ChooseUs() {
   return (
     <>
-      <section className='choose-section py-32  xl:w-auto lg:w-[110%]'>
-        <div className='container page-padding flex flex-row'>
+      <section className='choose-section py-32  xl:w-auto lg:w-[110%] md:w-[150%]'>
+        <div className='container page-padding flex lg:flex-row md:flex-col md:items-center md:gap-14'>
           <div className='video-div relative w-[50%]'>
             <Image
               src={VideoImg}
@@ -27,8 +27,8 @@ function ChooseUs() {
             <span className='bg-white cursor-pointer p-7 absolute rounded-full top-[38.7%] left-[39.9%]'></span>
           </div>
 
-          <div className='relative w-[50%]'>
-            <p className='text-white relative z-10 text-sm uppercase font-bold mb-14 ml-12'>
+          <div className='relative lg:w-[50%] md:w-[70%] md:flex md:flex-col md:items-center'>
+            <p className='text-white relative z-10 text-sm uppercase font-bold mb-14 ml-12 md:pr-11'>
               why choose us
             </p>
             <Image
@@ -36,10 +36,10 @@ function ChooseUs() {
               alt='text_bg'
               className=' w-64 absolute -top-3'
             />
-            <h2 className=' text-4xl text-white font-bold leading-[1.2] max-w-3xl'>
+            <h2 className='lg:text-4xl md:text-[3rem] text-white font-bold leading-[1.2] max-w-3xl'>
               We Can Give A Shape Of Your Body Here!
             </h2>
-            <p className='text-sm text-[#b4b4b4] mt-7 max-w-3xl'>
+            <p className='lg:text-sm md:text-lg text-[#b4b4b4] mt-7 max-w-3xl'>
               At <b>Gymate</b>, we are dedicated to helping you achieve the body
               of your dreams. Our expert trainers and nutritionists will work
               with you to create a personalized fitness and nutrition plan that
@@ -53,7 +53,7 @@ function ChooseUs() {
                   src={TrainingIcon}
                   alt='icon'
                 />
-                <p className='text-white font-bold text-base max-w-[150px]'>
+                <p className='text-white font-bold lg:text-base md:text-xl max-w-[150px]'>
                   Free Fitness Training
                 </p>
               </div>
@@ -64,7 +64,7 @@ function ChooseUs() {
                   src={EquipmentsIcon}
                   alt='icon'
                 />
-                <p className='text-white font-bold base max-w-[150px]'>
+                <p className='text-white font-bold lg:text-base md:text-xl max-w-[150px]'>
                   Modern Gym Equipments
                 </p>
               </div>
@@ -75,7 +75,7 @@ function ChooseUs() {
                   src={BagIcon}
                   alt='icon'
                 />
-                <p className='text-white font-bold text-base max-w-[150px]'>
+                <p className='text-white font-bold lg:text-base md:text-xl max-w-[150px]'>
                   Gym Bag Equipments
                 </p>
               </div>
@@ -86,11 +86,11 @@ function ChooseUs() {
                   src={BottleIcon}
                   alt='icon'
                 />
-                <p className='text-white font-bold text-base max-w-[150px]'>
+                <p className='text-white font-bold lg:text-base md:text-xl max-w-[150px]'>
                   Fresh Bottle Watter
                 </p>
               </div>
-              <div className='bg-white w-44 text-center text-black font-[600] p-4 hover:bg-secondary hover:text-white transition duration-300 rounded-sm'>
+              <div className='bg-white lg:w-44 md:w-56 lg:text-md md:text-xl text-center text-black font-[600] p-4 hover:bg-secondary hover:text-white transition duration-300 rounded-sm '>
                 <Link href='#'>OUR CLASSES</Link>
               </div>
             </div>

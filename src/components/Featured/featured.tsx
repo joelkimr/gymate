@@ -12,7 +12,7 @@ function Featured() {
   return (
     <>
       <section className='page-padding py-28 bg-white'>
-        <div className='container xl:w-auto lg:w-[110%]'>
+        <div className='container xl:w-auto lg:w-[110%] md:w-[155%]'>
           <div className='flex flex-col text-center items-center relative '>
             <p className='text-white font-semibold relative text-xs uppercase z-10 p-1'>
               our featured class
@@ -22,35 +22,39 @@ function Featured() {
               alt='text_bg'
               className=' w-64 absolute -top-3'
             />
-            <h2 className='text-3xl text-black font-bold my-10'>
+            <h2 className='lg:text-3xl md:text-4xl text-black font-bold my-10'>
               We Are Offering Best Flexible Classes
             </h2>
           </div>
           {/* grid */}
-          <div className='grid grid-cols-4 grid-rows-2 gap-4 h-full mt-2'>
-            <div className='item-0-div relative'>
+          <div className='lg:grid lg:grid-cols-4 lg:grid-rows-2 lg:gap-4 h-full lg:mt-2 md:flex md:flex-col md:gap-5'>
+            <div className='item-0-div relative '>
               <Image
                 src={Cycling}
                 alt='cyling'
                 className='item-0 ease-in duration-[0.4s]'
               />
               <div className='absolute z-10 bottom-10 left-10'>
-                <p className='text-white text-2xl font-bold'>Cycling</p>
-                <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
+                <p className='text-white lg:text-2xl md:text-3xl font-bold'>
+                  Cycling
+                </p>
+                <p className='text-white bg-secondary text-lg mt-3 py-1 px-5'>
                   Monday: 9:00am-10:00am
                 </p>
               </div>
             </div>
 
-            <div className='item-1-div relative'>
+            <div className='item-1-div relative '>
               <Image
                 src={Karate}
                 alt='karate'
                 className='item-0 ease-in duration-[0.4s]'
               />
               <div className='absolute z-10 bottom-10 left-10'>
-                <p className='text-white text-2xl font-bold'>Karate</p>
-                <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
+                <p className='text-white lg:text-2xl md:text-3xl font-bold'>
+                  Karate
+                </p>
+                <p className='text-white bg-secondary text-lg mt-3 py-1 px-5'>
                   Tuesday: 10:00am-11:00am
                 </p>
               </div>
@@ -63,8 +67,10 @@ function Featured() {
                 className='item-0 ease-in duration-[0.4s]'
               />
               <div className='absolute z-10 bottom-10 left-10'>
-                <p className='text-white text-2xl font-bold'>Power</p>
-                <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
+                <p className='text-white lg:text-2xl md:text-3xl font-bold'>
+                  Power
+                </p>
+                <p className='text-white bg-secondary text-lg mt-3 py-1 px-5'>
                   Wednesday: 9:00am-10:00am
                 </p>
               </div>
@@ -77,8 +83,10 @@ function Featured() {
                 className='item-0 ease-in duration-[0.4s]'
               />
               <div className='absolute z-10 bottom-10 left-10'>
-                <p className='text-white text-2xl font-bold'>Meditation</p>
-                <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
+                <p className='text-white lg:text-2xl md:text-3xl font-bold'>
+                  Meditation
+                </p>
+                <p className='text-white bg-secondary text-lg mt-3 py-1 px-5'>
                   Thursday: 1:00pm-2:00pm
                 </p>
               </div>
@@ -91,8 +99,10 @@ function Featured() {
                 className='item-0 ease-in duration-[0.4s]'
               />
               <div className='absolute z-10 bottom-10 left-10'>
-                <p className='text-white text-2xl font-bold'>Martial Arts</p>
-                <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
+                <p className='text-white lg:text-2xl md:text-3xl font-bold'>
+                  Martial Arts
+                </p>
+                <p className='text-white bg-secondary text-lg mt-3 py-1 px-5'>
                   Friday: 6:00pm-7:00pm
                 </p>
               </div>
@@ -105,8 +115,10 @@ function Featured() {
                 className='item-0 ease-in duration-[0.4s]'
               />
               <div className='absolute z-10 bottom-10 left-10'>
-                <p className='text-white text-2xl font-bold'>Workout</p>
-                <p className='text-white bg-secondary text-sm mt-3 py-1 px-5'>
+                <p className='text-white lg:text-2xl md:text-3xl font-bold'>
+                  Workout
+                </p>
+                <p className='text-white bg-secondary text-lg mt-3 py-1 px-5'>
                   Saturday: 4:00pm-5:00pm
                 </p>
               </div>
@@ -114,7 +126,7 @@ function Featured() {
           </div>
         </div>
       </section>
-      <div className='featured-cta flex justify-center text-left items-center  xl:w-auto lg:w-[110%]'>
+      <div className='featured-cta flex justify-center text-left items-center  xl:w-auto lg:w-[110%] md:w-[150%]'>
         <div className='container page-padding'>
           <div className='flex items-center'>
             <h2 className='text-white font-bold text-2xl max-w-6xl px-7'>
