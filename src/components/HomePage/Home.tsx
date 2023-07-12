@@ -8,12 +8,12 @@ import { SiFacebook } from "@react-icons/all-files/si/SiFacebook";
 function Hero() {
   return (
     <>
-      <section className='hero-section xl:w-full lg:w-[110%] h-screen md:w-[140%]'>
+      <section className='hero-section xl:w-full lg:w-[110%] h-screen md:w-[150%] md:min-h-[52rem]'>
         <div className='container-hero'>
           <div
             className='flex flex-col text-white
-           absolute hero-text'>
-            <p className='text-white text-sm uppercase font-medium relative z-10 pl-9 mb-8'>
+           absolute hero-text md:-right-[26rem] lg:-right-0 lg:top-96 md:top-[29rem]'>
+            <p className='text-white lg:text-sm md:text-xl uppercase font-medium relative z-10 lg:pl-9 md:pl-14 mb-8'>
               find your energy
             </p>
             <Image
@@ -21,7 +21,7 @@ function Hero() {
               alt='text_bg'
               className=' w-[52%] absolute -top-3 title-white'
             />
-            <h1 className='font-bold text-[40px] uppercase mb-[4rem] min450:text-[40px]'>
+            <h1 className='font-bold lg:text-[40px] md:text-[60px] uppercase mb-[4rem] min450:text-[40px]'>
               make your body <br />
               <span className='font-thin'>fit & perfect</span>
             </h1>
@@ -32,13 +32,15 @@ function Hero() {
 
         <div
           className='flex flex-row-reverse -rotate-90 text-white
-          absolute top-2/4 xl:-right-9 lg:-right-44 items-center'>
-          <p className='uppercase text-md font-bold tracking-widest'>share</p>
+          absolute lg:top-2/4 md:top-2/3 xl:-right-9 lg:-right-44 items-center md:-right-[28rem]'>
+          <p className='uppercase lg:text-md md:text-sm font-bold tracking-widest '>
+            share
+          </p>
           <span className='w-[35px] bg-[#FF0336] h-[2.5px] mr-6'></span>
           <div className='text-white gap-7 flex mr-7 '>
-            <SiFacebook className='rotate-90 hover:text-blue-800 text-2xl cursor-pointer ease-in duration-200' />
-            <AiOutlineTwitter className='rotate-90 hover:text-sky-500 text-2xl cursor-pointer ease-in duration-200' />
-            <FaInstagram className='rotate-90 hover:text-secondary text-2xl cursor-pointer ease-in duration-200' />
+            <SiFacebook className='rotate-90 hover:text-blue-800 lg:text-2xl md:text-2xl cursor-pointer ease-in duration-200' />
+            <AiOutlineTwitter className='rotate-90 hover:text-sky-500 lg:text-2xl md:text-2xl cursor-pointer ease-in duration-200' />
+            <FaInstagram className='rotate-90 hover:text-secondary lg:text-2xl md:text-2xl cursor-pointer ease-in duration-200' />
           </div>
         </div>
       </section>

@@ -84,31 +84,31 @@
 
 .item-0-div::before {
     content: url('../images/features/gym-bike.png');
-    left: -25px;
+    left: -35px;
     bottom: 45%;
 }
 
 .item-1-div::before {
     content: url('../images/features/karate.png');
-    left: -1px;
+    left: -25px;
     bottom: 45%;
 }
 
 .item-2-div::before {
     content: url('../images/features/dumbbell.png');
-    left: -1px;
+    left: -25px;
     bottom: 45%;
 }
 
 .item-3-div::before {
     content: url('../images/features/yoga.png');
-    left: -1px;
+    left: -27px;
     bottom: 45%;
 }
 
 .item-4-div::before {
     content: url('../images/features/boxer.png');
-    left: -1px;
+    left: -25px;
     bottom: 45%;
 }
 
