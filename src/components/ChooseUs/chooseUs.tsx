@@ -4,7 +4,7 @@ import TrainingIcon from "../../images/choose-us/training.png";
 import EquipmentsIcon from "../../images/choose-us/bench-press.png";
 import BagIcon from "../../images/choose-us/gym-bag.png";
 import BottleIcon from "../../images/choose-us/bottle-of-water.png";
-import PlayImg from "../../images/choose-us/play.png";
+// import PlayImg from "../../images/choose-us/play.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -19,11 +19,11 @@ function ChooseUs() {
               alt='video_img'
               className='relative w-[94%] h-auto'
             />
-            <Image
+            {/* <Image
               src={PlayImg}
               alt='play_img'
               className='absolute w-6 top-[41%] left-[43%] z-10 cursor-pointer'
-            />
+            /> */}
             <span className='bg-white cursor-pointer p-7 absolute rounded-full top-[38.7%] left-[39.9%]'></span>
           </div>
 
