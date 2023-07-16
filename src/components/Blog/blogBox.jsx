@@ -12,7 +12,7 @@ function BlogBox({ date, title, description }) {
         <p className='text-sm text-[#646464] font-medium'>{description}</p>
         <Link
           href='#'
-          className='text-sm uppercase font-bold mt-10 w-44 h-14 bg-secondary text-white text-center pt-4'>
+          className='text-base uppercase font-bold mt-10 w-44 h-14 bg-secondary text-white text-center pt-4'>
           Read more &nbsp;
         </Link>
       </div>

@@ -75,7 +75,7 @@ function About() {
                   </h3>
                 </div>
               </div>
-              <div className='bg-black/80 lg:w-44 md:w-52 text-center lg:text-base md:text-xl text-white font-[600] p-4 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-60'>
+              <div className='bg-black/80 lg:w-44 md:w-52 text-center lg:text-sm md:text-xl text-white font-[600] p-4 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-60'>
                 <Link href='#'>TAKE A TOUR</Link>
               </div>
             </div>
