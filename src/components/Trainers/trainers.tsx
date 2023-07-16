@@ -19,7 +19,7 @@ function Trainers() {
 
   return (
     <>
-      <section className='trainers-section  xl:w-auto lg:w-[110%]'>
+      <section className='trainers-section  xl:w-auto lg:w-[110%] md:w-[150%]'>
         <div className='container page-padding py-28'>
           <div className='flex flex-col items-center text-center relative'>
             <p className='text-white relative z-10 text-sm uppercase font-bold mb-10'>
@@ -39,7 +39,9 @@ function Trainers() {
           </div>
 
           <div className='flex mt-20 '>
-            <div className='flex justify-center' style={{ margin: "0 auto" }}>
+            <div
+              className='flex justify-center md:gap-20'
+              style={{ margin: "0 auto" }}>
               {trainers.map((train, id) => (
                 <div
                   key={id}
@@ -58,7 +60,7 @@ function Trainers() {
                     <Image
                       alt='shape'
                       src={Shape}
-                      className='absolute -top-[25px] left-[113px]'
+                      className='absolute -top-[25px] lg:left-[113px] md:left-[75px]'
                     />
 
                     <h3 className='font-bold text-xl'>{train.name}</h3>

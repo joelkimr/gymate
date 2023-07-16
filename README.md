@@ -4,5 +4,6 @@
 
 <h3>Build with:</h3>
 
-» Tailwind CSS <br>
-» Next JS
+. Next JS<br>
+. CSS<br>
+. Tailwind CSS 
