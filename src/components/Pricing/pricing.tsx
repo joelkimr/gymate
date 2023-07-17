@@ -12,7 +12,7 @@ import Img3 from "../../images/pricing/img3.jpg";
 function Pricing() {
   return (
     <>
-      <section className='pricing-section relative'>
+      <section className='pricing-section relative xl:w-auto lg:w-[100%] md:w-[140%]'>
         <div className='container page-padding py-16'>
           <Image src={BgText} className='left-0 absolute' alt='bg_img' />
           <div className='flex flex-col text-center relative items-center'>
