@@ -8,7 +8,7 @@ import { SiFacebook } from "@react-icons/all-files/si/SiFacebook";
 function Footer() {
   return (
     <>
-      <footer className='bg-white  xl:w-auto lg:w-[110%]'>
+      <footer className='bg-white  xl:w-auto lg:w-[110%] md:w-[150%]'>
         <div className='container page-padding py-24'>
           <div className='flex justify-between !text-left'>
             <div className='flex flex-col w-1/3 gap-6'>

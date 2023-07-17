@@ -40,7 +40,7 @@ function Trainers() {
 
           <div className='flex mt-20 '>
             <div
-              className='flex justify-center md:gap-20'
+              className='flex justify-center md:gap-14'
               style={{ margin: "0 auto" }}>
               {trainers.map((train, id) => (
                 <div
