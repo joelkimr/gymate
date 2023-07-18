@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import Logo from "../../images/logo/logo.svg";
 import Image from "next/image";
 import NavList from "./NavList";
-import { FiMenu } from "@react-icons/all-files/fi/FiMenu";
 
 const NavBar = () => {
   const [sticky, setSticky] = useState(false);
@@ -21,7 +20,7 @@ const NavBar = () => {
   return (
     <>
       <nav
-        className={`flex flex-row bg-transparent items-center justify-between py-9 px-12 fixed top-0 left-0 right-0 w-full z-50 ${
+        className={`flex flex-row bg-transparent items-center justify-between md:py-3 py-9 px-12 fixed top-0 left-0 right-0 w-full z-50 ${
           sticky ? "shadow-xl !bg-black" : ""
         }`}>
         <Link href='/'>
@@ -30,17 +29,14 @@ const NavBar = () => {
         <div className='hidden md:block'>
           <NavList />
         </div>
-        <div className='border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md md:hidden lg:block hidden'>
+        <div className='border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md'>
           <Link href='#' className='flex items-center '>
             <i className='bg-[#FF0336] text-white text-xl py-2 px-3 rounded-md'></i>
-            <h3 className='text-white text-[11px] font-[600] uppercase ml-2 mr-2'>
+            <h3 className='text-white md:text-[11px] text-2xl font-[600] uppercase ml-2 mr-2'>
               join class now
             </h3>
           </Link>
         </div>
-        <button className='flex items-center md:hidden'>
-          <FiMenu className='text-5xl text-white' />
-        </button>
       </nav>
     </>
   );
