@@ -126,7 +126,7 @@ function Featured() {
           </div>
         </div>
       </section>
-      <div className='featured-cta flex justify-center text-left items-center  xl:w-auto lg:w-[110%] md:w-[150%] min-w-[60rem]'>
+      {/* <div className='featured-cta flex justify-center text-left items-center  xl:w-auto lg:w-[110%] md:w-[150%] min-w-[60rem]'>
         <div className='container page-padding'>
           <div className='flex items-center'>
             <h2 className='text-white font-bold text-2xl max-w-6xl px-7'>
@@ -137,7 +137,7 @@ function Featured() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
