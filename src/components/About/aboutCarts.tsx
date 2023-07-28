@@ -12,7 +12,7 @@ function AboutCarts() {
           <Image
             src={card.img}
             alt='box_img'
-            className='md:w-20 md:mb-4 w-44 mb-14'
+            className='md:w-20 md:mb-4 w-44 mb-14 md:mt-9 lg:mt-9'
           />
           <p className=' md:text-[24px] text-[40px] font-extrabold uppercase mb-12'>
             {card.title}
