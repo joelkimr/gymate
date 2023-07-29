@@ -12,7 +12,7 @@ import Img3 from "../../images/pricing/img3.jpg";
 function Pricing() {
   return (
     <>
-      <section className='pricing-section relative xl:w-auto lg:w-[100%] md:w-[140%]'>
+      <section className='pricing-section relative xl:w-auto lg:w-[100%] md:w-[140%] min-w-[50rem]'>
         <div className='container page-padding py-16'>
           <Image src={BgText} className='left-0 absolute' alt='bg_img' />
           <div className='flex flex-col text-center relative items-center'>
@@ -31,7 +31,7 @@ function Pricing() {
               <br /> make a type specimen book.
             </p>
           </div>
-          <div className='flex gap-10 mt-16 relative z-[2]'>
+          <div className='md:flex md:flex-row flex flex-col gap-10 mt-16 relative z-[2]'>
             <PricingCard img={Img1} price='39' title='Beginner' />
             <PricingCard img={Img2} price='65' title='Advanced' />
             <PricingCard img={Img3} price='100' title='Pro' />
