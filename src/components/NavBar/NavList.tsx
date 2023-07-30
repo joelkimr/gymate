@@ -15,7 +15,7 @@ function NavList() {
   return (
     <>
       <ul className='flex lg:gap-7 md:gap-5 text-white lg:text-sm md:text-md font-medium'>
-        <CustomLink href='#' title='Home' />
+        <CustomLink href='/' title='Home' />
         <CustomLink href='#' title='About' />
         <CustomLink href='#' title='Gallery' />
         <CustomLink href='#' title='Schedule' />

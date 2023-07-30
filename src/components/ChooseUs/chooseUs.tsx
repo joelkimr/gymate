@@ -22,7 +22,7 @@ function ChooseUs() {
             <Image
               src={PlayImg}
               alt='play_img'
-              className='absolute w-6 top-[41%] left-[43%] z-10 cursor-pointer'
+              className='absolute w-6 top-[41%] left-[43%] z-10 cursor-pointer hover:w-8'
             />
             <span className='bg-white cursor-pointer p-7 absolute rounded-full top-[38.7%] left-[39.9%]'></span>
           </div>
