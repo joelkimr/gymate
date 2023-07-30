@@ -12,26 +12,28 @@ import Img3 from "../../images/pricing/img3.jpg";
 function Pricing() {
   return (
     <>
-      <section className='pricing-section relative xl:w-auto lg:w-[100%] md:w-[140%] min-w-[50rem]'>
+      <section className='pricing-section relative xl:w-auto lg:w-[100%] md:w-[140%] min-w-[60rem]'>
         <div className='container page-padding py-16'>
           <Image src={BgText} className='left-0 absolute' alt='bg_img' />
           <div className='flex flex-col text-center relative items-center'>
-            <p className='text-white relative z-10 text-sm uppercase font-bold mb-8'>
+            <p className='text-white relative z-10 md:text-sm uppercase font-bold md:mb-10 text-3xl md:pt-0 pt-3 md:ml-0 ml-3'>
               PRICING CHART
             </p>
             <Image
               src={TitleRed}
               alt='text_bg'
-              className='w-64 absolute -top-[10px] '
+              className='md:w-64 w-[30rem] absolute -top-3 md:ml-0 ml-1'
             />
 
-            <h2 className='text-2xl font-bold mb-4'>Exclusive Pricing Plan</h2>
-            <p className='text-[#646464] font-medium text-sm'>
+            <h2 className='md:text-3xl font-bold md:mb-4 text-6xl md:mt-0 mt-24'>
+              Exclusive Pricing Plan
+            </h2>
+            <p className='text-[#646464] font-medium md:text-sm text-3xl md:mt-0 mt-12'>
               Gymat an unknown printer took a galley of type and scrambled
               <br /> make a type specimen book.
             </p>
           </div>
-          <div className='md:flex md:flex-row flex flex-col gap-10 mt-16 relative z-[2]'>
+          <div className='md:flex md:flex-row flex flex-col items-center md:gap-10 gap-20 mt-16 relative z-[2]'>
             <PricingCard img={Img1} price='39' title='Beginner' />
             <PricingCard img={Img2} price='65' title='Advanced' />
             <PricingCard img={Img3} price='100' title='Pro' />

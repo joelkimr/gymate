@@ -20,7 +20,7 @@ function Gallery() {
               className='md:w-64 w-[35rem] absolute -top-3 md:ml-0 ml-1'
             />
 
-            <h2 className='md:text-3xl font-bold md:mb-4 text-6xl md:mt-0 mt-32'>
+            <h2 className='md:text-3xl font-bold md:mb-4 text-6xl md:mt-0 mt-24'>
               Our Workplace Gallery
             </h2>
             <p className='text-[#646464] font-medium md:text-sm text-3xl md:mt-0 mt-12'>

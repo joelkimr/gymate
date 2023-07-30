@@ -24,7 +24,7 @@ function Footer() {
                   goals.
                 </p>
               </div>
-              <div className='md:flex-row md:flex text-2xl gap-4 items-center md:block hidden'>
+              <div className='md:flex-row md:flex text-2xl gap-4 items-center hidden'>
                 <AiOutlineTwitter className='text-sky-500 cursor-pointer' />
                 <FaInstagram className='text-secondary cursor-pointer' />
                 <SiFacebook className='text-blue-900 cursor-pointer' />
@@ -41,7 +41,7 @@ function Footer() {
                 Our Classes
               </p>
 
-              <span className='md:top-[33px] top-[45px] absolute md:w-12 w-32 md:h-[2px] h-[8px] bg-[#ff0366]'></span>
+              <span className='md:top-[32px] top-[45px] absolute md:w-12 w-32 md:h-[2px] h-[8px] bg-[#ff0366]'></span>
 
               <p className='md:text-sm text-3xl text-[#646464] font-medium md:mt-0 mt-9'>
                 Fitness Classes
@@ -66,7 +66,7 @@ function Footer() {
                 Working Hours
               </p>
 
-              <span className='md:top-[33px] top-[45px] absolute md:w-20 w-44 md:h-[2px] h-[8px] bg-[#ff0366]'></span>
+              <span className='md:top-[39px] top-[45px] absolute md:w-20 w-44 md:h-[2px] h-[8px] bg-[#ff0366]'></span>
 
               <p className='md:text-sm text-3xl  text-[#646464] font-bold md:mt-0 mt-9'>
                 Monday - Friday:
