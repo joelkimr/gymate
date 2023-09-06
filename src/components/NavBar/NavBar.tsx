@@ -24,15 +24,15 @@ const NavBar = () => {
           sticky ? "shadow-xl !bg-black" : ""
         }`}>
         <Link href='/'>
-          <Image src={Logo} alt='logo_img' className='lg:w-40 md:w-56 w-96' />
+          <Image src={Logo} alt='logo_img' className='lg:w-40 md:w-56 w-64' />
         </Link>
-        <div className='hidden md:block'>
+        <div className='hidden lg:block'>
           <NavList />
         </div>
-        <div className='border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md'>
+        <div className='border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md hidden md:block'>
           <Link href='#' className='flex items-center '>
             <i className='bg-[#FF0336] text-white text-xl py-2 px-3 rounded-md'></i>
-            <h3 className='text-white md:text-[11px] text-2xl font-[600] uppercase ml-2 mr-2 hover:text-red-400 transition duration-500'>
+            <h3 className='text-white md:text-[11px] text-2xl font-[600] uppercase ml-2 mr-2 hover:text-red-400 transition duration-500 '>
               join class now
             </h3>
           </Link>
