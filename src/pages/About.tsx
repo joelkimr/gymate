@@ -62,15 +62,16 @@ const About = () => {
                   <Image
                     src={Target}
                     alt='target_img'
-                    className='md:w-[9rem] w-[13rem]'
+                    className='md:w-[9rem] w-[7rem]'
                   />
-                  <h2 className='md:text-[36px] text-[65px] font-bold mt-3'>
+                  <h2 className='md:text-[36px] text-[50px] font-bold mt-3'>
                     Our History
                   </h2>
                   <p className='md:text-[16px] text-[30px] font-medium text-[#646464] mt-5'>
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit mollit
-                    Exercitation veniam consequat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias autem tempore facere esse nam in rem vero
+                    assumenda aperiam debitis facilis velit, optio quam
+                    reiciendis suscipit enim praesentium. Ducimus, cupiditate?
                   </p>
                 </div>
                 <div className='w-full bg-white h-[30rem]'>
@@ -92,15 +93,16 @@ const About = () => {
                   <Image
                     src={Mountain}
                     alt='target_img'
-                    className='md:w-[9rem] w-[13rem]'
+                    className='md:w-[9rem] w-[7rem]'
                   />
-                  <h2 className='md:text-[36px] text-[65px] font-bold mt-3'>
-                    Our History
+                  <h2 className='md:text-[36px] text-[50px] font-bold mt-3'>
+                    Our Goal
                   </h2>
                   <p className='md:text-[16px] text-[30px] font-medium text-[#646464] mt-5'>
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit mollit
-                    Exercitation veniam consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Nulla delectus aut enim saepe tempore illo non accusantium?
+                    Officia mollitia minus at necessitatibus, nisi ratione!
+                    Earum saepe officiis error amet natus.amet
                   </p>
                 </div>
               </div>
