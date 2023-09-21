@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer/footer";
 import Image from "next/image";
-import Link from "next/link";
 import React, { useState } from "react";
 import { galleryImg } from "./GalleryFiles";
 
