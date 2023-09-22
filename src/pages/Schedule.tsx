@@ -62,13 +62,13 @@ const Schedule = () => {
     {
         title: 'Wednesday',
         activities: [{
-            name: 'Body Building',
+            name: 'Power Lifitng',
             time: '7:00 AM - 9:00 PM',
             trainer: 'Johnson Bell',
             link: ''
         },
         {
-            name: 'Fitness',
+            name: 'Boxing',
             time: '10:00 PM - 11:00 PM',
             trainer: 'John Wick',
             link: ''
@@ -118,7 +118,7 @@ const Schedule = () => {
     {
         title: 'Friday',
         activities: [{
-            name: 'Fitness',
+            name: 'Crossing',
             time: '9:00 AM - 10:00 PM',
             trainer: '???',
             link: ''
