@@ -17,7 +17,7 @@ function AboutCarts() {
           <p className=' md:text-[24px] text-[40px] font-extrabold uppercase mb-12'>
             {card.title}
           </p>
-          <p className='lg:text-[13px] md:text-[20px] text-3xl font-medium leading-2 md:w-full w-4/5 h-36'>
+          <p className='lg:text-[15px] md:text-[20px] text-3xl font-medium leading-2 md:w-full w-4/5 h-36'>
             {card.description}
           </p>
         </div>

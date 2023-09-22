@@ -51,7 +51,7 @@ const About = () => {
               </div>
 
               <div className='bg-black/80 lg:w-44 md:w-64 w-80 text-center lg:text-sm md:text-xl text-3xl text-white font-light md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm mt-16'>
-                <Link href='#'>CONTACT US</Link>
+                <Link href='/'>CONTACT US</Link>
               </div>
             </div>
           </div>

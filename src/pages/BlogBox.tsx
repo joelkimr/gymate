@@ -9,7 +9,7 @@ const BlogBox = ({ img, title }: { img: any, title: any }) => {
                 <Image src={ img } alt="blog_img" />
                 <p className="font-medium md:text-[16px] text-[23px] text-[#646464] pt-4 pb-4">
                     <i className="fa-solid fa-layer-group text-[#ff0336] text-[16px]"></i>
-                    &nbsp; By <b>Admin</b> | March 11, 2022 | Yoga
+                    &nbsp; By <b>Author</b> | September 10, 2023 | Yoga
                 </p>
                 <h2 className="lg:text-[2rem] text-[3rem] font-bold mb-2">{ title }</h2>
                 <p className="font-medium lg:text-[16px] text-[25px] text-[#646464] mb-8">

@@ -20,9 +20,9 @@ function NavList() {
         <CustomLink href='/Gallery' title='Gallery' />
         <CustomLink href='/Schedule' title='Schedule' />
         <CustomLink href='/Blog' title='Blog' />
-        <CustomLink href='#' title='Pricing' />
-        <CustomLink href='#' title='Classes' />
-        <CustomLink href='#' title='Contact' />
+        <CustomLink href='/Pricing' title='Pricing' />
+        <CustomLink href='/Classes' title='Classes' />
+        <CustomLink href='/' title='Contact' />
       </ul>
     </>
   );
