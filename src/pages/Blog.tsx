@@ -55,9 +55,7 @@ const Blog = () => {
                                 type="search"
                                 placeholder="Search"
                             ></input>
-                            <button type="submit">
-                                <i className="fa-solid fa-magnifying-glass bg-[#ff0336] text-white text-[23px] h-[60px] w-[60px] rounded-br-xl rounded-tr-xl pt-[18px]"></i>
-                            </button>
+
                         </form>
 
                         <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
