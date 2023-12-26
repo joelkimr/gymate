@@ -26,7 +26,7 @@ function Gallery() {
             <p className='text-[#646464] font-medium md:text-sm text-3xl md:mt-0 mt-12'>
               Our Workplace Gallery features modern office, team collaboration,
               and fun culture.
-              <br /> Attracts talents and showcases company's work atmosphere.
+              <br /> Attracts talents and showcases company{ `'` }s work atmosphere.
             </p>
           </div>
 
