@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer/footer";
 import Image from "next/image";
 import React, { useState } from "react";
-import { galleryImg } from "./GalleryFiles";
+import { galleryImg } from "../components/GalleryFiles";
 
 const Gallery = () => {
   const [min, setMin] = useState(0);
