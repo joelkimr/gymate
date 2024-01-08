@@ -36,7 +36,7 @@ const Schedule = () => {
         activities: [{
             name: 'Yoga',
             time: '6:00 AM - 8:00 PM',
-            trainer: 'Elizabeth Clark',
+            trainer: '???',
             link: ''
         },
         {
@@ -221,7 +221,7 @@ const Schedule = () => {
                                         setSelected(key);
 
                                     } }
-                                    className={ `md:w-36 md:h-10 w-52 inline-flex items-center justify-center text-center md:text-[16px] text-[28px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl ${selected === key ? "bg-[#ff0336] text-white" : "bg-none text-black"}` }>
+                                    className={ `md:w-36 md:h-10 w-64 h-20 inline-flex items-center justify-center text-center md:text-[16px] text-[34px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl ${selected === key ? "bg-[#ff0336] text-white" : "bg-none text-black"}` }>
                                     { day.title }
                                 </button>
                             )

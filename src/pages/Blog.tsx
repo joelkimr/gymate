@@ -51,7 +51,7 @@ const Blog = () => {
                     <div>
                         <form className="flex">
                             <input
-                                className="border-solid border-[1px] text-[#444] lg:text-[16px] text-[25px] font-medium h-[60px] py-[5px] px-[20px] w-full rounded-tl-xl rounded-bl-xl outline-none"
+                                className="border-solid border-[1px] text-[#444] lg:text-[16px] text-[25px] font-medium h-[60px] py-[5px] px-[20px] w-full rounded-sm outline-none"
                                 type="search"
                                 placeholder="Search"
                             ></input>
@@ -69,7 +69,7 @@ const Blog = () => {
                                         <i className="text-[13px]"></i>
                                         &nbsp; Body Building
                                     </p>
-                                    <span>(4)</span>
+                                    <span>(6)</span>
                                 </li>
 
                                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
@@ -85,7 +85,7 @@ const Blog = () => {
                                         <i className="text-[13px]"></i>
                                         &nbsp; Crossfit
                                     </p>
-                                    <span>(4)</span>
+                                    <span>(3)</span>
                                 </li>
 
                                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
@@ -93,7 +93,7 @@ const Blog = () => {
                                         <i className="text-[13px]"></i>
                                         &nbsp; Fitness
                                     </p>
-                                    <span>(4)</span>
+                                    <span>(5)</span>
                                 </li>
 
                                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
@@ -101,7 +101,7 @@ const Blog = () => {
                                         <i className="text-[13px]"></i>
                                         &nbsp; Meditation
                                     </p>
-                                    <span>(4)</span>
+                                    <span>(8)</span>
                                 </li>
 
                                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
@@ -109,7 +109,7 @@ const Blog = () => {
                                         <i className="text-[13px]"></i>
                                         &nbsp; Yoga
                                     </p>
-                                    <span>(4)</span>
+                                    <span>(7)</span>
                                 </li>
                             </ul>
                         </div>
