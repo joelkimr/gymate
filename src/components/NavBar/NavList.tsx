@@ -14,7 +14,7 @@ const CustomLink = ({ href = "", title = "" }) => {
 function NavList() {
   return (
     <>
-      <ul className='flex lg:gap-7 md:gap-5 text-white lg:text-sm md:text-md font-medium'>
+      <ul className='flex md:flex-row flex-col lg:gap-7 md:gap-5 md:text-white text-black/90 lg:text-sm md:text-md font-medium md:relative absolute md:space-y-0 space-y-14 md:w-auto md:h-auto w-[50rem] h-[59rem] md:border-none border-solid border-[3px] border-secondary/50 shadow- shadow-secondary rounded-3xl bg-white opacity-95 md:bg-transparent text-center md:pt-0 pt-28'>
         <CustomLink href='/' title='Home' />
         <CustomLink href='/About' title='About' />
         <CustomLink href='/Gallery' title='Gallery' />
@@ -22,7 +22,7 @@ function NavList() {
         <CustomLink href='/Blog' title='Blog' />
         <CustomLink href='/Pricing' title='Pricing' />
         <CustomLink href='/Classes' title='Classes' />
-        <CustomLink href='/' title='Contact' />
+        <CustomLink href='/Contact' title='Contact' />
       </ul>
     </>
   );

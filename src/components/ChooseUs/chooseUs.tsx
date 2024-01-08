@@ -91,7 +91,7 @@ function ChooseUs() {
                 </p>
               </div>
               <div className='bg-white lg:w-44 md:w-56 w-80 h-auto lg:text-base md:text-lg text-3xl text-center text-black font-[600] p-4 hover:bg-secondary hover:text-white transition duration-300 rounded-sm md:ml-48 ml-[9rem]'>
-                <Link href='#'>OUR CLASSES</Link>
+                <Link href='/Schedule'>OUR CLASSES</Link>
               </div>
             </div>
           </div>

@@ -23,14 +23,14 @@ const About = () => {
             <Image
               src={Background}
               alt='home_image'
-              className='lg:min-w-[70rem] md:min-w-[155%] xl:min-w-full absolute xl:min-h-[120%] lg:min-h-[110%] md:min-h-[107%] min-h-[110%] min-w-[225%] -z-30 -top-32'
+              className='lg:min-w-[70rem] md:min-w-[155%] xl:min-w-full absolute xl:min-h-[120%] lg:min-h-[110%] md:min-h-[107%]  md:block hidden -z-30 -top-32'
             />
           </div>
-          <div className='w-full flex flex-row justify-center xl:mx-0 lg:top-96 xl:gap-0 lg:gap-16 md:top-[73rem] top-[12prem] md:items-center mt-32 lg:min-w-[70rem] md:min-w-[155%] xl:min-w-full min-w-[220%]'>
-            <div className='flex flex-col items-center xl:w-3/6 lg:w-3/4 md:w-2/3 w-full p-6'>
+          <div className='w-full flex-row justify-center xl:mx-0 lg:top-96 xl:gap-0 lg:gap-16 md:top-[73rem] top-[12prem] md:items-center mt-32 lg:min-w-[70rem] md:min-w-[155%] xl:min-w-full min-w-[210%] md:block hidden'>
+            <div className='flex flex-col items-center xl:w-3/6 lg:w-3/4 md:min-w-full min-w-[120%] p-6'>
               <div className=''>
                 <div className='flex justify-center'>
-                  <p className='text-white font-semibold md:text-lg text-4xl md:p-0 md:pl-0 pl-36 uppercase z-10'>
+                  <p className='text-white font-semibold md:text-lg text-4xl md:-mt-0 -mt-2 md:pl-0 pl-44 uppercase z-10'>
                     who we are
                   </p>
                   <Image
@@ -39,10 +39,10 @@ const About = () => {
                     className='md:w-64 w-[35rem] absolute -top-0 md:top-3 md:ml-0 ml-44'
                   />
                 </div>
-                <h2 className='md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center'>
+                <h2 className='md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center md:ml-0 ml-36'>
                   We Will Give You Strength and Health
                 </h2>
-                <p className='text-[#646464] font-medium md:text-lg text-[33px] md:mt-0 mt-12 text-center'>
+                <p className='text-[#646464] font-medium md:text-lg text-[33px] md:mt-0 mt-12 text-center md:ml-0 ml-20'>
                   At Gymate, we are dedicated to helping you achieve the body of
                   your dreams. Our expert trainers and nutritionists will work
                   with you to create a personalized fitness and nutrition plan
@@ -50,13 +50,13 @@ const About = () => {
                 </p>
               </div>
 
-              <div className='bg-black/80 lg:w-44 md:w-64 w-80 text-center lg:text-sm md:text-xl text-3xl text-white font-light md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm mt-16'>
+              <div className='bg-black/80 lg:w-44 md:w-64 w-80 text-center lg:text-sm md:text-xl text-3xl text-white font-light md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm mt-16 md:ml-0 ml-36'>
                 <Link href='/'>CONTACT US</Link>
               </div>
             </div>
           </div>
           <div className='container page-padding py-[5rem] min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%] z-30'>
-            <div className='mt-[10rem]'>
+            <div className='md:mt-[10rem] mt-2'>
               <div className='md:grid md:grid-cols-2 md:grid-rows-2 w-full flex flex-col space-y-10 md:space-y-0'>
                 <div className='w-full bg-white h-[30rem] flex flex-col justify-center items-center text-center px-[100px]'>
                   <Image
