@@ -12,24 +12,23 @@ import Img3 from "../../images/pricing/img3.jpg";
 function Pricing() {
   return (
     <>
-      {/* <section className="pricing-section relative xl:w-auto lg:w-[100%] md:w-[140%] min-w-[60rem]"> */}
       <section className="pricing-section relative w-full">
         <div className="container page-padding py-16">
           <Image src={BgText} className="left-0 absolute" alt="bg_img" />
           <div className="flex flex-col text-center relative items-center">
-            <p className="text-white relative z-10 md:text-sm uppercase font-bold md:mb-10 text-3xl md:pt-0 pt-3 md:ml-0 ml-3">
+            <p className="text-white relative z-10 md:text-lg uppercase font-bold md:mb-10 lg:text-xs text-4xl md:pt-0 pt-3 lg:pt-0 md:ml-0 ml-3">
               PRICING CHART
             </p>
             <Image
               src={TitleRed}
               alt="text_bg"
-              className="md:w-64 w-[30rem] absolute -top-3 md:ml-0 ml-1"
+              className="md:w-64 w-[30rem] lg:w-44 absolute -top-3 md:ml-0 ml-1"
             />
 
-            <h2 className="md:text-3xl font-bold md:mb-4 text-6xl md:mt-0 mt-24">
+            <h2 className="md:text-4xl lg:text-xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
               Exclusive Pricing Plan
             </h2>
-            <p className="text-[#646464] font-medium md:text-sm text-3xl md:mt-0 mt-12">
+            <p className="text-[#646464] font-medium md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
               Gymat an unknown printer took a galley of type and scrambled
               <br /> make a type specimen book.
             </p>

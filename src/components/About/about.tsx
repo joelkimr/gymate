@@ -15,27 +15,26 @@ import Link from "next/link";
 function About() {
   return (
     <>
-      {/* <section className="flex flex-row gap-2 xl:w-[100%] lg:w-[110%] md:w-[150%] border-2"> */}
       <section className="flex flex-row gap-2 w-full">
         <div className="relative">
           <div className="flex flex-col lg:flex-row md:flex-col lg:gap-8 md:gap-0 gap-32 md:mx-32 xl:mx-44 lg:mx-14 lg:-mt-20 md:-mt-0 absolute m-20 left-0 2xl:left-[30rem] 2xl:right-[30rem]">
             <AboutCarts />
           </div>
-          <div className="lg:flex lg:flex-row xl:justify-around lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-9 lg:gap-16 md:top-[77rem] top-[129rem] md:items-center lg:ml-0 md:ml-48 left-0 2xl:left-[38rem]">
+          <div className="lg:flex lg:flex-row xl:justify-around lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-9 lg:gap-16 md:top-[79rem] top-[129rem] md:items-center lg:ml-0 md:ml-72 left-0 2xl:left-[38rem]">
             <div className="lg:w-2/5 md:w-3/4 ">
               <div className="relative">
-                <p className="text-white font-semibold relative md:text-xs text-3xl uppercase z-10 md:p-1 p-5 md:ml-20 ml-80">
+                <p className="text-white font-semibold relative md:text-lg text-4xl uppercase z-10 md:p-0 p-5 md:ml-56 ml-[34rem]">
                   who we are
                 </p>
                 <Image
                   src={TitleBg}
                   alt="text_bg"
-                  className="md:w-64 w-[35rem] absolute -top-3 md:ml-0 ml-44"
+                  className="md:w-64 w-[35rem] absolute -top-3 md:ml-40 ml-96"
                 />
-                <h2 className="md:text-3xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center">
+                <h2 className="md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center">
                   Take Your Health And Body To Next Level
                 </h2>
-                <p className="text-[#646464] font-medium md:text-sm text-3xl md:mt-0 mt-12 text-center">
+                <p className="text-[#646464] font-medium md:text-lg text-4xl md:mt-0 mt-12 text-center md:p-0 p-9">
                   Take your health and body to the next level with our
                   comprehensive program designed to help you reach your fitness
                   goals.
@@ -48,7 +47,7 @@ function About() {
                     alt="icon_img"
                     className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto w-44`}
                   />
-                  <h3 className="uppercase font-bold md:text-base text-3xl leading-snug">
+                  <h3 className="uppercase font-bold md:text-base text-4xl leading-snug">
                     professional <br /> trainers
                   </h3>
                 </div>
@@ -59,7 +58,7 @@ function About() {
                     alt="icon_img"
                     className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto w-44`}
                   />
-                  <h3 className="uppercase font-bold md:text-base text-3xl leading-snug">
+                  <h3 className="uppercase font-bold md:text-base text-4xl leading-snug">
                     modern <br /> equipments
                   </h3>
                 </div>
@@ -70,13 +69,13 @@ function About() {
                     alt="icon_img"
                     className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto w-44`}
                   />
-                  <h3 className="uppercase font-bold md:text-base text-3xl leading-snug">
+                  <h3 className="uppercase font-bold md:text-base text-4xl leading-snug">
                     fancy gym <br />
                     machines
                   </h3>
                 </div>
               </div>
-              <div className="bg-black/80 lg:w-44 md:w-52 w-80 text-center lg:text-sm md:text-lg text-3xl text-white font-[600] md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-60 ml-[22.5rem]">
+              <div className="bg-black/80 lg:w-44 md:w-52 w-80 text-center lg:text-sm md:text-lg text-4xl text-white font-[600] md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-48 ml-[32rem] -mt-12">
                 <Link href="/Schedule">TAKE A TOUR</Link>
               </div>
             </div>
