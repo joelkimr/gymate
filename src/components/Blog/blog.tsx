@@ -6,25 +6,23 @@ import BlogBox from "./blogBox";
 function Blog() {
   return (
     <>
-      {/* <section className='bg-white  xl:w-auto lg:w-[110%] md:w-[150%] min-w-[60rem]'> */}
       <section className="bg-white w-full">
         <div className="container page-padding py-24">
-          {/* title div -- */}
           <div className="flex flex-col text-center relative items-center">
-            <p className="text-white relative z-10 md:text-sm uppercase font-bold md:mb-10 text-3xl md:pt-0 pt-3 md:ml-0 ml-3">
+            <p className="text-white relative z-10 md:text-lg uppercase font-bold md:mb-10 text-4xl lg:text-xs md:pt-0 pt-3 md:ml-0 ml-0">
               latest blog
             </p>
             <Image
               src={TitleRed}
               alt="text_bg"
-              className="md:w-64 w-[30rem] absolute -top-3 md:ml-0 ml-1"
+              className="md:w-64 w-[30rem] lg:w-44 absolute -top-3 md:ml-0 ml-1"
             />
 
-            <h2 className="md:text-3xl font-bold md:mb-4 text-6xl md:mt-0 mt-24">
+            <h2 className="md:text-4xl lg:text-xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
               Our Recent News
             </h2>
           </div>
-          <div className="md:flex md:flex-row flex flex-col gap-6 w-full mt-12">
+          <div className="md:flex md:flex-row flex flex-col gap-6 w-full mt-12 md:ml-0 ml-36">
             <BlogBox
               date="22.03.2023"
               title="Yoga For Everyone in 2023"

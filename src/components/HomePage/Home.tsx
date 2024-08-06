@@ -8,15 +8,14 @@ import { SiFacebook } from "@react-icons/all-files/si/SiFacebook";
 function Hero() {
   return (
     <>
-      {/* <section className="hero-section xl:w-full lg:w-[110%] h-screen md:w-[150%] md:min-h-[52rem] min-h-[80rem] min-w-[60rem]"> */}
       <section className="hero-section w-full]">
         <div className="container-hero">
           <div
             className="flex flex-col text-white md:w-auto
-           absolute md:-right-[7rem] lg:right-52 lg:top-40 xl:top-64 md:top-[10rem] top-96 md:left-auto left-48  w-[48rem] 2xl:right-[50rem]
+           absolute md:-right-[7rem] lg:right-52 lg:top-40 xl:top-64 md:top-[10rem] top-96 md:left-auto left-96  w-[48rem] 2xl:right-[50rem] 
            "
           >
-            <p className="text-white lg:text-sm md:text-xl text-[25px] uppercase font-medium relative z-10 lg:pl-9 md:pl-14 pl-36 mb-8 lg:block md:hidden block">
+            <p className="text-white lg:text-sm md:text-xl text-[30px] uppercase font-medium relative z-10 lg:pl-9 md:pl-14 pl-36 mb-8 lg:block md:hidden block">
               find your energy
             </p>
             <Image

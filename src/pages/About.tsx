@@ -13,8 +13,8 @@ const About = () => {
   return (
     <>
       <section>
-        <div className="login-banner relative justify-center flex min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%]">
-          <h1 className="text-white absolute bottom-8 md:text-[30px] text-[50px] font-bold">
+        <div className="login-banner relative justify-center flex w-full">
+          <h1 className="text-white absolute bottom-2 md:bottom-8 md:text-[30px] text-[70px] font-bold">
             About Us
           </h1>
         </div>
@@ -64,10 +64,10 @@ const About = () => {
                     alt="target_img"
                     className="md:w-[9rem] w-[7rem]"
                   />
-                  <h2 className="md:text-[36px] text-[50px] font-bold mt-3">
+                  <h2 className="md:text-[36px] text-[60px] font-bold mt-3">
                     Our History
                   </h2>
-                  <p className="md:text-[16px] text-[30px] font-medium text-[#646464] mt-5">
+                  <p className="md:text-[16px] text-[40px] font-medium text-[#646464] mt-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias autem tempore facere esse nam in rem vero
                     assumenda aperiam debitis facilis velit, optio quam
@@ -95,10 +95,10 @@ const About = () => {
                     alt="target_img"
                     className="md:w-[9rem] w-[7rem]"
                   />
-                  <h2 className="md:text-[36px] text-[50px] font-bold mt-3">
+                  <h2 className="md:text-[36px] text-[60px] font-bold mt-3">
                     Our Goal
                   </h2>
-                  <p className="md:text-[16px] text-[30px] font-medium text-[#646464] mt-5">
+                  <p className="md:text-[16px] text-[40px] font-medium text-[#646464] mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nulla delectus aut enim saepe tempore illo non accusantium?
                     Officia mollitia minus at necessitatibus, nisi ratione!

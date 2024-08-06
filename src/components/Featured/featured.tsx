@@ -12,10 +12,9 @@ function Featured() {
   return (
     <>
       <section className="page-padding md:py-28 py-56 bg-white">
-        {/* <div className='container xl:w-auto lg:w-[110%] md:w-[155%] min-w-[55rem]'> */}
         <div className="container w-full">
           <div className="flex flex-col text-center items-center relative ">
-            <p className="text-white font-semibold relative md:text-xs text-3xl uppercase z-10 md:p-1 p-5">
+            <p className="text-white font-semibold relative md:text-lg text-4xl uppercase z-10 md:p-0 p-5">
               our featured class
             </p>
             <Image
@@ -36,10 +35,10 @@ function Featured() {
                 className="item-0 ease-in duration-[0.4s]"
               />
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white lg:text-2xl md:text-3xl text-6xl font-bold">
+                <p className="text-white lg:text-2xl md:text-3xl text-7xl font-bold">
                   Cycling
                 </p>
-                <p className="text-white bg-secondary md:text-lg lg:text-sm text-3xl mt-3 md:py-1 py-3 px-5">
+                <p className="text-white bg-secondary md:text-lg lg:text-sm text-4xl mt-3 md:py-1 py-3 px-5">
                   Monday: 9:00am-10:00am
                 </p>
               </div>
@@ -52,10 +51,10 @@ function Featured() {
                 className="item-0 ease-in duration-[0.4s]"
               />
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white lg:text-2xl md:text-3xl text-6xl font-bold">
+                <p className="text-white lg:text-2xl md:text-3xl text-7xl font-bold">
                   Karate
                 </p>
-                <p className="text-white bg-secondary md:text-lg lg:text-sm text-3xl mt-3 md:py-1 py-3 px-5">
+                <p className="text-white bg-secondary md:text-lg lg:text-sm text-4xl mt-3 md:py-1 py-3 px-5">
                   Tuesday: 10:00am-11:00am
                 </p>
               </div>
@@ -68,10 +67,10 @@ function Featured() {
                 className="item-0 ease-in duration-[0.4s]"
               />
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white lg:text-2xl md:text-3xl text-6xl font-bold">
+                <p className="text-white lg:text-2xl md:text-3xl text-7xl font-bold">
                   Power
                 </p>
-                <p className="text-white bg-secondary md:text-lg lg:text-sm text-3xl mt-3 md:py-1 py-3 px-5">
+                <p className="text-white bg-secondary md:text-lg lg:text-sm text-4xl mt-3 md:py-1 py-3 px-5">
                   Wednesday: 9:00am-10:00am
                 </p>
               </div>
@@ -84,10 +83,10 @@ function Featured() {
                 className="item-0 ease-in duration-[0.4s]"
               />
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white lg:text-2xl md:text-3xl text-6xl font-bold">
+                <p className="text-white lg:text-2xl md:text-3xl text-7xl font-bold">
                   Meditation
                 </p>
-                <p className="text-white bg-secondary md:text-lg lg:text-sm text-3xl mt-3 md:py-1 py-3 px-5">
+                <p className="text-white bg-secondary md:text-lg lg:text-sm text-4xl mt-3 md:py-1 py-3 px-5">
                   Thursday: 1:00pm-2:00pm
                 </p>
               </div>
@@ -100,10 +99,10 @@ function Featured() {
                 className="item-0 ease-in duration-[0.4s]"
               />
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white lg:text-2xl md:text-3xl text-6xl font-bold">
+                <p className="text-white lg:text-2xl md:text-3xl text-7xl font-bold">
                   Martial Arts
                 </p>
-                <p className="text-white bg-secondary md:text-lg lg:text-sm text-3xl mt-3 md:py-1 py-3 px-5">
+                <p className="text-white bg-secondary md:text-lg lg:text-sm text-4xl mt-3 md:py-1 py-3 px-5">
                   Friday: 6:00pm-7:00pm
                 </p>
               </div>
@@ -116,10 +115,10 @@ function Featured() {
                 className="item-0 ease-in duration-[0.4s]"
               />
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white lg:text-2xl md:text-3xl text-6xl font-bold">
+                <p className="text-white lg:text-2xl md:text-3xl text-7xl font-bold">
                   Workout
                 </p>
-                <p className="text-white bg-secondary md:text-lg lg:text-sm text-3xl mt-3 md:py-1 py-3 px-5">
+                <p className="text-white bg-secondary md:text-lg lg:text-sm text-4xl mt-3 md:py-1 py-3 px-5">
                   Saturday: 4:00pm-5:00pm
                 </p>
               </div>
@@ -127,7 +126,6 @@ function Featured() {
           </div>
         </div>
       </section>
-      {/* <div className="featured-cta  justify-center text-left items-center  xl:w-auto lg:w-[110%] md:w-[150%] min-w-[60rem] hidden md:block md:pt-9"> */}
       <div className="featured-cta  justify-center text-left items-center w-full hidden md:block md:pt-9">
         <div className="container page-padding">
           <div className="flex items-center">
@@ -142,11 +140,11 @@ function Featured() {
       </div>
       <div className="min-w-[60rem] min-h-[23rem] bg-secondary block p-9 md:hidden space-y-12 text-center">
         <div>
-          <p className="text-[3rem] font-bold text-white">
+          <p className="text-[4rem] font-bold text-white">
             We Are Always Providing Best Fitness Service For You
           </p>
         </div>
-        <div className="bg-white w-72 h-auto text-black/90 text-3xl font-[600] p-6 hover:border hover:border-gray-500 transition duration-300 rounded-lg ml-[18rem]">
+        <div className="bg-white w-80 h-auto text-black/90 text-4xl font-[600] p-6 hover:border hover:border-gray-500 transition duration-300 rounded-lg ml-[29rem]">
           <Link href="/Contact">JOIN US</Link>
         </div>
       </div>
