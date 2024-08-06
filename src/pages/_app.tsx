@@ -10,7 +10,9 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${montserrat.variable} font-mont`}>
+    <main
+      className={`${montserrat.variable} font-mont w-full h-full lg:min-w-full md:min-w-[150%] min-w-[300%] mx-auto overflow-x-hidden`}
+    >
       <NavBar />
       <Component {...pageProps} />
     </main>

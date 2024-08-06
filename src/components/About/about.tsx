@@ -15,12 +15,13 @@ import Link from "next/link";
 function About() {
   return (
     <>
-      <section className="flex flex-row gap-2 xl:w-[100%] lg:w-[110%] md:w-[150%]">
+      {/* <section className="flex flex-row gap-2 xl:w-[100%] lg:w-[110%] md:w-[150%] border-2"> */}
+      <section className="flex flex-row gap-2 w-full">
         <div className="relative">
-          <div className="flex flex-col lg:flex-row md:flex-col lg:gap-8 md:gap-0 gap-32 md:mx-32 xl:mx-44 lg:mx-16 -mt-20 absolute m-20">
+          <div className="flex flex-col lg:flex-row md:flex-col lg:gap-8 md:gap-0 gap-32 md:mx-32 xl:mx-44 lg:mx-14 lg:-mt-20 md:-mt-0 absolute m-20 left-0 2xl:left-[30rem] 2xl:right-[30rem]">
             <AboutCarts />
           </div>
-          <div className="lg:flex lg:flex-row xl:justify-end lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-0 lg:gap-16 md:top-[73rem] top-[125rem] md:items-center lg:ml-0 md:ml-48">
+          <div className="lg:flex lg:flex-row xl:justify-around lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-9 lg:gap-16 md:top-[77rem] top-[129rem] md:items-center lg:ml-0 md:ml-48 left-0 2xl:left-[38rem]">
             <div className="lg:w-2/5 md:w-3/4 ">
               <div className="relative">
                 <p className="text-white font-semibold relative md:text-xs text-3xl uppercase z-10 md:p-1 p-5 md:ml-20 ml-80">
@@ -112,7 +113,7 @@ function About() {
             <Image
               src={Background}
               alt="home_image"
-              className="w-full lg:min-h-[65rem] md:min-h-[115rem] min-h-[240rem] min-w-[60rem]"
+              className="w-full lg:min-h-[65rem] md:min-h-[115rem] min-h-[240rem] min-w-[60rem] 2xl:min-w-[160rem]"
             />
           </div>
         </div>

@@ -8,7 +8,7 @@ function AboutCarts() {
       {cardList.map((card, id) => (
         <div
           key={id}
-          className="flex flex-col bg-white justify-center px-7 text-center items-center md:mt-12 text-lg md:rounded-tl-[35px] rounded-tl-[100px] md:rounded-br-[35px] rounded-br-[100px] shadow-2xl lg:min-h-[300px] md:min-h-[250px] min-h-[550px] z-30 hover:bg-black/90 hover:text-white min-w-[300px]"
+          className="flex flex-col bg-white justify-center px-7 text-center items-center md:mt-12 text-lg md:rounded-tl-[35px] rounded-tl-[100px] md:rounded-br-[35px] rounded-br-[100px] shadow-2xl lg:min-h-[300px] md:min-h-[250px] min-h-[550px] z-30 hover:bg-black/90 hover:text-white min-w-[150px]"
         >
           <Image
             src={card.img}
