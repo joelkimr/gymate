@@ -24,7 +24,7 @@ const NavBar = () => {
   return (
     <>
       <nav
-        className={`flex flex-row bg-transparent items-center justify-between md:py-3 py-9 px-12 fixed top-0 left-0 right-0 w-full z-50 ${
+        className={`flex flex-row bg-transparent items-center justify-between 2xl:justify-center space-x-0 2xl:space-x-52 md:py-3 py-9 px-12 fixed top-0 left-0 right-0 w-full z-50 ${
           sticky ? "shadow-xl !bg-black" : ""
         }`}
       >

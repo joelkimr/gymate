@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+}
 .container-hero {
     max-width: 111.6rem;
     margin: 0 auto;
@@ -12,8 +16,8 @@
 }
 
 .page-padding {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 3.3rem;
+    padding-right: 3rem;
 }
 
 .hero-section {
@@ -23,6 +27,10 @@
     object-fit: cover;
     background-size: cover;
     background-position: center center;
+    @media(max-width:450px) {
+        height: 200vh;
+    }
+ 
 }
 
 
@@ -354,7 +362,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
     height: 100%;
+    @media (max-width:450px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 
 #item-0 {
     height: 30rem;
