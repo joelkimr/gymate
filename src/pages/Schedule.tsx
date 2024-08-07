@@ -212,13 +212,13 @@ const Schedule = () => {
   return (
     <>
       <section>
-        <div className="login-banner relative justify-center flex min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%]">
+        <div className="login-banner relative justify-center flex min-w-[60rem] xl:w-auto lg:w-[110%] md:w-full">
           <h1 className="text-white absolute bottom-2 md:text-[30px] text-[70px] font-bold">
             Schedule by Day
           </h1>
         </div>
-        <div className="min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%]">
-          <div className="md:w-auto flex flex-wrap md:gap-4 gap-12 justify-center mt-[4rem]">
+        <div className="min-w-[60rem] xl:w-auto 2xl:w-[60%] mx-auto md:w-full">
+          <div className="md:w-full flex flex-wrap md:gap-4 gap-12 justify-center mt-[4rem]">
             {week.map((day, key) => {
               return (
                 <button
@@ -226,7 +226,7 @@ const Schedule = () => {
                   onClick={() => {
                     setSelected(key);
                   }}
-                  className={`md:w-36 md:h-10 w-64 h-20 inline-flex items-center justify-center text-center md:text-[16px] text-[44px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl ${
+                  className={`md:w-32 md:h-10 w-64 lg:w-28 xl:w-40 h-20 inline-flex items-center justify-center text-center md:text-[16px] text-[44px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl ${
                     selected === key
                       ? "bg-[#ff0336] text-white"
                       : "bg-none text-black"
@@ -260,7 +260,7 @@ const RowOne = ({ data }: { data: any }) => {
               <p className="md:text-[14px] text-4xl font-medium text-[#a0a0a0]">
                 Class Name
               </p>
-              <p className="md:text-[18px] text-5xl text-black font-bold mt-3">
+              <p className="md:text-[18px] lg:text-[13px] xl:text-[18px] text-5xl text-black font-bold mt-3">
                 {activity.name}
               </p>
             </li>
@@ -269,7 +269,7 @@ const RowOne = ({ data }: { data: any }) => {
               <p className="md:text-[14px] text-4xl font-medium text-[#a0a0a0]">
                 Time
               </p>
-              <p className="md:text-[18px] text-5xl text-black font-bold mt-3">
+              <p className="md:text-[18px] lg:text-[13px] xl:text-[18px] text-5xl text-black font-bold mt-3">
                 {activity.time}
               </p>
             </li>
@@ -278,12 +278,12 @@ const RowOne = ({ data }: { data: any }) => {
               <p className="md:text-[14px] text-4xl font-medium text-[#a0a0a0]">
                 Trainer
               </p>
-              <p className="md:text-[18px] text-5xl text-black font-extrabold mt-3">
+              <p className="md:text-[18px] lg:text-[13px] xl:text-[18px] text-5xl text-black font-extrabold mt-3">
                 {activity.trainer}
               </p>
             </li>
             <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full items-center flex md:justify-end justify-center">
-              <button className="text-white md:text-[15px] text-4xl font-medium bg-[#555] md:py-[10px] py-[25px] md:px-[20px] px-[35px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200">
+              <button className="text-white md:text-[15px] text-4xl font-medium bg-[#555] md:py-[3px] lg:py-[1px] py-[25px] md:px-[20px] px-[35px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200">
                 Join Now
               </button>
             </li>

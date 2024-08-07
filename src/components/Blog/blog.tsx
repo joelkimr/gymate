@@ -18,7 +18,7 @@ function Blog() {
               className="md:w-64 w-[30rem] lg:w-44 absolute -top-3 md:ml-0 ml-1"
             />
 
-            <h2 className="md:text-4xl lg:text-xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
+            <h2 className="md:text-4xl lg:text-4xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
               Our Recent News
             </h2>
           </div>

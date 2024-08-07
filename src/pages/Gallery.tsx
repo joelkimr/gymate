@@ -11,13 +11,13 @@ const Gallery = () => {
   return (
     <>
       <section>
-        <div className="login-banner relative justify-center flex min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%]">
+        <div className="login-banner relative justify-center flex">
           <h1 className="text-white absolute bottom-2 md:text-[30px] text-[70px] font-bold">
             Gallery
           </h1>
         </div>
         <div className="container page-padding py-[5rem]">
-          <div className="grid lg:grid-cols-3 gap-7 md:grid-cols-2 min-w-[55rem] xl:w-auto lg:w-[110%] md:w-[160%] ">
+          <div className="grid lg:grid-cols-3 gap-7 md:grid-cols-2 md:w-full">
             {galleryImg.slice(min, max).map((image) => (
               <div key={image.id}>
                 <Image
@@ -29,7 +29,7 @@ const Gallery = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-center gap-3 mt-3 min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%]">
+        <div className="flex justify-center gap-3 mt-3 w-full">
           {[1, 2].map((page, key) => {
             return (
               <button
