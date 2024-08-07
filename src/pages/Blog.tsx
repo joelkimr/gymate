@@ -20,12 +20,12 @@ const Blog = () => {
   return (
     <>
       <section>
-        <div className="login-banner relative justify-center flex min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%]">
+        <div className="login-banner relative justify-center flex w-full">
           <h1 className="text-white absolute bottom-2 md:text-[30px] text-[70px] font-bold">
             Blog
           </h1>
         </div>
-        <div className="py-[5rem] container gap-12 page-padding lg:grid lg:grid-cols-[64fr_35fr] flex flex-col xl:w-auto lg:min-w-[70rem] md:min-w-[73rem] min-w-[60rem] ">
+        <div className="py-[5rem] container gap-12 page-padding lg:grid lg:grid-cols-[64fr_35fr] flex flex-col xl:w-auto w-full ">
           <div className="flex flex-col gap-20">
             <BlogBox img={Img1} title="Yoga For Everyone in 2022" />
             <BlogBox
@@ -50,7 +50,7 @@ const Blog = () => {
           <div>
             <form className="flex">
               <input
-                className="border-solid border-[1px] text-[#444] lg:text-[16px] text-[30px] font-medium h-[60px] py-[5px] px-[20px] w-full rounded-sm outline-none"
+                className="border-solid border-[1px] text-[#444] lg:text-[16px] text-[35px] md:text-[30px] font-medium h-[60px] py-[5px] px-[20px] w-full rounded-sm outline-none"
                 type="search"
                 placeholder="Search"
               ></input>
@@ -65,49 +65,80 @@ const Blog = () => {
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
-                    &nbsp; Body Building
+                    &nbsp;{" "}
+                    <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                      Body Building
+                    </span>
                   </p>
-                  <span>(6)</span>
+                  <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                    (6)
+                  </span>
                 </li>
 
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
-                    &nbsp; Boxing
+                    &nbsp;
+                    <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                      {" "}
+                      Boxing
+                    </span>
                   </p>
-                  <span>(4)</span>
+                  <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                    (4)
+                  </span>
                 </li>
 
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
-                    &nbsp; Crossfit
+                    &nbsp;{" "}
+                    <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                      Crossfit
+                    </span>
                   </p>
-                  <span>(3)</span>
+                  <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                    (3)
+                  </span>
                 </li>
 
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
-                    &nbsp; Fitness
+                    &nbsp;{" "}
+                    <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                      Fitness
+                    </span>
                   </p>
-                  <span>(5)</span>
+                  <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                    (5)
+                  </span>
                 </li>
 
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
-                    &nbsp; Meditation
+                    &nbsp;{" "}
+                    <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                      Meditation
+                    </span>
                   </p>
-                  <span>(8)</span>
+                  <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                    (8)
+                  </span>
                 </li>
 
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
-                    &nbsp; Yoga
+                    &nbsp;{" "}
+                    <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                      Yoga
+                    </span>
                   </p>
-                  <span>(7)</span>
+                  <span className="text-3xl md:text-2xl lg:text-sm xl:text-lg">
+                    (7)
+                  </span>
                 </li>
               </ul>
             </div>
@@ -120,10 +151,10 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent1} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="lg:text-[14px] md:text-[26px] text-[32px] text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="lg:text-[16px] text-[28px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Yoga For Everyone in 2022
                     </p>
                   </div>
@@ -132,10 +163,10 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent2} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="lg:text-[14px] md:text-[26px] text-[32px] text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="lg:text-[16px] text-[28px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Getting Back Into CrossFit
                     </p>
                   </div>
@@ -144,10 +175,10 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent3} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="lg:text-[14px] md:text-[26px] text-[32px] text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="lg:text-[16px] text-[28px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Meet Fitness Abassador Grace
                     </p>
                   </div>
@@ -156,10 +187,10 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent4} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="lg:text-[14px] md:text-[26px] text-[32px] text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="lg:text-[16px] text-[28px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       The best are European Meditation Practitioner
                     </p>
                   </div>
@@ -168,10 +199,10 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent5} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="lg:text-[14px] md:text-[26px] text-[32px] text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="lg:text-[16px] text-[28px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Learn Boxing With Our Trainer John
                     </p>
                   </div>
@@ -180,10 +211,10 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent6} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="lg:text-[14px] md:text-[26px] text-[32px] text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
                       March 22, 2022
                     </p>
-                    <p className="lg:text-[16px] text-[28px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       How To Get Lean For The Summer
                     </p>
                   </div>
@@ -224,7 +255,7 @@ const Blog = () => {
             </div>
             <div className="blog-banner w-full h-[56rem] relative">
               <p className="absolute text-[34px] font-bold uppercase top-16 left-10 z-[2]">
-                gymat
+                gymate
               </p>
               <span className="banner-shape top-14 left-0 z-[1] bg-white absolute w-[18rem] h-[60px]"></span>
               <div className="text-white flex flex-col absolute top-[10rem] left-10">

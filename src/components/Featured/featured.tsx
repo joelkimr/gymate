@@ -14,15 +14,15 @@ function Featured() {
       <section className="page-padding md:py-28 py-56 bg-white">
         <div className="container w-full">
           <div className="flex flex-col text-center items-center relative ">
-            <p className="text-white font-semibold relative md:text-lg text-4xl uppercase z-10 md:p-0 p-5">
+            <p className="text-white font-semibold relative md:text-lg text-4xl uppercase z-10 md:p-0 p-5 lg:text-sm">
               our featured class
             </p>
             <Image
               src={TitleRed}
               alt="text_bg"
-              className="md:w-64 w-[35rem] absolute -top-3"
+              className="md:w-64 w-[35rem] lg:w-60 absolute -top-3"
             />
-            <h2 className="lg:text-3xl md:text-4xl text-[60px] text-black font-bold md:my-10 my-20">
+            <h2 className="lg:text-4xl md:text-4xl text-[60px] text-black font-bold md:my-10 my-20">
               We Are Offering Best Flexible Classes
             </h2>
           </div>
@@ -129,7 +129,7 @@ function Featured() {
       <div className="featured-cta  justify-center text-left items-center w-full hidden md:block md:pt-9">
         <div className="container page-padding">
           <div className="flex items-center">
-            <h2 className="text-white font-bold text-2xl max-w-6xl px-0">
+            <h2 className="text-white font-bold text-2xl max-w-6xl px-7">
               We Are Always Providing Best Fitness Service For You
             </h2>
             <div className="bg-white w-44 text-center text-black/90 text-sm font-[600] p-4 hover:border hover:border-white hover:bg-secondary hover:text-white transition duration-300 rounded-sm ">

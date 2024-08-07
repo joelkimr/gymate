@@ -23,18 +23,18 @@ function About() {
           <div className="lg:flex lg:flex-row xl:justify-around lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-9 lg:gap-16 md:top-[79rem] top-[129rem] md:items-center lg:ml-0 md:ml-72 left-0 2xl:left-[38rem]">
             <div className="lg:w-2/5 md:w-3/4 ">
               <div className="relative">
-                <p className="text-white font-semibold relative md:text-lg text-4xl uppercase z-10 md:p-0 p-5 md:ml-56 ml-[34rem]">
+                <p className="text-white font-semibold relative md:text-lg text-4xl uppercase lg:text-sm z-10 md:p-0 p-5 md:ml-56 lg:-top-2 lg:ml-52 ml-[30rem]">
                   who we are
                 </p>
                 <Image
                   src={TitleBg}
                   alt="text_bg"
-                  className="md:w-64 w-[35rem] absolute -top-3 md:ml-40 ml-96"
+                  className="md:w-64 w-[35rem] lg:w-44 absolute -top-3 md:ml-40 ml-80"
                 />
-                <h2 className="md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center">
+                <h2 className="md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center lg:text-4xl">
                   Take Your Health And Body To Next Level
                 </h2>
-                <p className="text-[#646464] font-medium md:text-lg text-4xl md:mt-0 mt-12 text-center md:p-0 p-9">
+                <p className="text-[#646464] font-medium md:text-lg text-4xl md:mt-0 mt-12 text-center md:p-0 p-9 lg:text-sm">
                   Take your health and body to the next level with our
                   comprehensive program designed to help you reach your fitness
                   goals.
@@ -47,35 +47,35 @@ function About() {
                     alt="icon_img"
                     className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto w-44`}
                   />
-                  <h3 className="uppercase font-bold md:text-base text-4xl leading-snug">
+                  <h3 className="uppercase font-bold md:text-base lg:text-sm text-4xl leading-snug">
                     professional <br /> trainers
                   </h3>
                 </div>
 
-                <div className="flex flex-col items-center text-center border-solid border-l border-[rgb(0,0,0,0.2)] border-r py-10 px-14 min620:px-0 min620:border-none">
+                <div className="flex-col items-center text-center border-solid border-l border-[rgb(0,0,0,0.2)] border-r py-10 px-14 min620:px-0 min620:border-none md:block hidden">
                   <Image
                     src={ModernIcon}
                     alt="icon_img"
                     className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto w-44`}
                   />
-                  <h3 className="uppercase font-bold md:text-base text-4xl leading-snug">
+                  <h3 className="uppercase font-bold md:text-base lg:text-sm text-4xl leading-snug">
                     modern <br /> equipments
                   </h3>
                 </div>
 
-                <div className="flex flex-col items-center text-center py-10 px-14 pr-2">
+                <div className="flex flex-col items-center text-center py-10 px-14 md:pr-2">
                   <Image
                     src={LiftIcon}
                     alt="icon_img"
                     className={`lg:w-[4rem] md:w-[6rem] mb-6 h-auto w-44`}
                   />
-                  <h3 className="uppercase font-bold md:text-base text-4xl leading-snug">
+                  <h3 className="uppercase font-bold md:text-base lg:text-sm text-4xl leading-snug">
                     fancy gym <br />
                     machines
                   </h3>
                 </div>
               </div>
-              <div className="bg-black/80 lg:w-44 md:w-52 w-80 text-center lg:text-sm md:text-lg text-4xl text-white font-[600] md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-48 ml-[32rem] -mt-12">
+              <div className="bg-black/80 lg:w-44 md:w-52 w-80 text-center lg:text-sm md:text-lg text-4xl text-white font-[600] md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-[11.8rem] ml-[29rem] -mt-12 md:-mt-28 lg:-mt-0">
                 <Link href="/Schedule">TAKE A TOUR</Link>
               </div>
             </div>

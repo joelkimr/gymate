@@ -26,8 +26,8 @@ const About = () => {
               className="lg:min-w-[70rem] md:min-w-[155%] xl:min-w-full absolute xl:min-h-[120%] lg:min-h-[110%] md:min-h-[107%]  md:block hidden -z-30 -top-32"
             />
           </div>
-          <div className="w-full flex-row justify-center xl:mx-0 lg:top-96 xl:gap-0 lg:gap-16 md:top-[73rem] top-[12prem] md:items-center mt-32 lg:min-w-[70rem] md:min-w-[155%] xl:min-w-full min-w-[210%] md:block hidden">
-            <div className="flex flex-col items-center xl:w-3/6 lg:w-3/4 md:min-w-full min-w-[120%] p-6">
+          <div className="w-full flex-row justify-center xl:mx-0 lg:top-96 xl:gap-0 lg:gap-16 md:top-[73rem] top-[12prem] md:items-center mt-32 lg:min-w-[70rem] md:w-full xl:min-w-full">
+            <div className="flex flex-col items-center xl:w-3/6 lg:w-3/4 md:min-w-full p-6 -ml-40 md:-ml-0 lg:-ml-12 xl:-ml-4">
               <div className="flex flex-col items-center justify-center">
                 <div className="flex justify-center">
                   <p className="text-white font-semibold md:text-lg text-4xl md:-mt-0 -mt-2 md:pl-0 pl-44 uppercase z-10">
@@ -55,9 +55,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="container page-padding py-[5rem] min-w-[60rem] xl:w-auto lg:w-[110%] md:w-[155%] z-30">
-            <div className="md:mt-[10rem] mt-2">
-              <div className="md:grid md:grid-cols-2 md:grid-rows-2 w-full flex flex-col space-y-10 md:space-y-0">
+          <div className="container page-padding py-[5rem] min-w-[60rem] xl:w-auto lg:w-[100%] md:w-full z-30">
+            <div className="md:mt-[10rem] mt-20">
+              <div className="md:grid md:grid-cols-2 md:grid-rows-2 w-full flex flex-col space-y-20 md:space-y-0">
                 <div className="w-full bg-white h-[30rem] flex flex-col justify-center items-center text-center px-[100px]">
                   <Image
                     src={Target}

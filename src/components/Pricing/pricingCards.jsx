@@ -18,11 +18,11 @@ function PricingBox({ img, price, title }) {
         </div>
         <div className='flex flex-col items-center pt-5 pb-14 gap-9 lg:gap-3'>
           <p className='text-center text-5xl lg:text-3xl font-extrabold relative py-[6px] '>
-            <span className='md:text-3xl lg:text-sm text-4xl text-[#6d6d6d] absolute font-normal top-3 -left-4'>
+            <span className='md:text-3xl lg:text-sm text-4xl text-[#6d6d6d] absolute font-normal top-3 -left-8'>
               $
             </span>
             {price}
-            <span className='md:text-base lg:text-xs text-3xl text-[#6d6d6d] absolute font-normal bottom-2xl -right-7'>
+            <span className='md:text-base lg:text-xs text-3xl text-[#6d6d6d] absolute font-normal bottom-2xl -right-20'>
               p/m
             </span>
           </p>

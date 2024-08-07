@@ -21,13 +21,13 @@ function ChooseUs() {
           </div>
 
           <div className="relative w-full flex flex-col items-center lg:w-[50%] md:w-[70%] md:flex md:flex-col md:items-center">
-            <p className="text-white relative z-10 md:text-lg text-4xl uppercase font-bold md:mb-14 mb-20 ml-[5rem] md:pr-11 md:pl-0 pl- md:pt-0 pt-3">
+            <p className="text-white relative z-10 md:text-lg text-4xl uppercase font-bold md:mb-14 mb-20 lg:text-sm ml-[5rem] lg:ml-12 md:pr-11 md:pl-0 pl- md:pt-0 pt-3">
               why choose us
             </p>
             <Image
               src={TitleRed}
               alt="text_bg"
-              className="md:w-64 w-[35rem] absolute -top-3 md:ml-0 ml-20"
+              className="md:w-64 w-[35rem] lg:w-44 absolute -top-3 lg:-top-1 md:ml-0 ml-20"
             />
             <h2 className="lg:text-4xl md:text-[3rem] text-5xl text-white font-bold leading-[1.2] max-w-3xl text-center">
               We Can Give A Shape Of Your Body Here!

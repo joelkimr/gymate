@@ -22,19 +22,19 @@ function Trainers() {
       <section className="trainers-section w-full">
         <div className="container page-padding py-28">
           <div className="flex flex-col items-center text-center relative">
-            <p className="text-white relative z-10 md:text-lg uppercase font-bold md:mb-10 text-3xl md:pt-0 pt-5 md:ml-0 ml-20">
+            <p className="text-white relative z-10 md:text-lg uppercase font-bold md:mb-10 text-3xl lg:text-xs md:pt-0 pt-5 md:ml-0 ml-20">
               gym trainers
             </p>
             <Image
               src={TitleRed}
               alt="text_bg"
-              className="md:w-64 w-[35rem] absolute -top-3 md:ml-0 ml-16"
+              className="md:w-64 w-[35rem] lg:w-44 absolute -top-3 md:ml-0 ml-16"
             />
 
-            <h2 className="md:text-4xl font-bold md:mb-4 text-7xl md:mt-0 mt-32">
+            <h2 className="md:text-4xl font-bold md:mb-4 lg:text-4xl text-7xl md:mt-0 mt-32">
               Team Of Expert Coaches
             </h2>
-            <p className="text-[#646464] font-medium md:text-lg text-4xl md:mt-0 mt-12">
+            <p className="text-[#646464] font-medium md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
               Expert team of coaches helps you succeed in any goal,
               <br /> personalized guidance and motivation provided!
             </p>
@@ -64,10 +64,10 @@ function Trainers() {
                       className="absolute -top-[25px] lg:left-[113px] md:left-[75px] left-[170px]"
                     />
 
-                    <h3 className="font-bold md:text-2xl text-5xl">
+                    <h3 className="font-bold md:text-2xl lg:text-lg text-5xl">
                       {train.name}
                     </h3>
-                    <p className="font-medium md:text-lg text-4xl md:mt-0 mt-5 text-[#646464]">
+                    <p className="font-medium md:text-lg lg:text-sm text-4xl md:mt-0 mt-5 text-[#646464]">
                       {train.job}
                     </p>
                     <div className="flex gap-5 text-[#646464] w-full justify-center mt-5 md:text-2xl text-5xl">

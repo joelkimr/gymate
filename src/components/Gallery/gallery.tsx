@@ -10,19 +10,19 @@ function Gallery() {
 
         <div className="container page-padding py-12">
           <div className="flex flex-col text-center relative items-center ">
-            <p className="text-white relative z-10 md:text-lg uppercase font-bold md:mb-10 text-4xl md:pt-0 pt-5 md:ml-0 ml-3">
+            <p className="text-white relative z-10 md:text-lg lg:text-xs uppercase font-bold md:mb-10 text-4xl md:pt-0 pt-5 md:ml-0 ml-3">
               GYM GALLERY
             </p>
             <Image
               src={TitleRed}
               alt="title"
-              className="md:w-64 w-[35rem] absolute -top-3 md:ml-0 ml-1"
+              className="md:w-64 w-[35rem] lg:w-44 absolute -top-3 md:ml-0 ml-1"
             />
 
-            <h2 className="md:text-4xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
+            <h2 className="md:text-4xl lg:text-4xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
               Our Workplace Gallery
             </h2>
-            <p className="text-[#646464] font-medium md:text-lg text-4xl md:mt-0 mt-12">
+            <p className="text-[#646464] lg:text-sm font-medium md:text-lg text-4xl md:mt-0 mt-12">
               Our Workplace Gallery features modern office, team collaboration,
               and fun culture.
               <br /> Attracts talents and showcases company{`'`}s work
