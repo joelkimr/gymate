@@ -8,8 +8,8 @@ function BlogBox({ date, title, description }) {
         <p className='md:text-lg text-3xl lg:text-xs font-bold text-[#323232] border-[#323232] border-solid rounded-full border-[1px] md:w-fit w-48 px-5 py-2 mb-3'>
           {date}
         </p>
-        <h3 className='md:text-xl lg:text-sm text-4xl font-bold py-5'>{title}</h3>
-        <p className='md:text-lg lg:text-sm text-3xl text-[#646464] font-medium'>
+        <h3 className='md:text-xl lg:text-[17px] text-4xl font-bold py-5'>{title}</h3>
+        <p className='md:text-lg lg:text-sm text-3xl text-[#646464]'>
           {description}
         </p>
         <Link

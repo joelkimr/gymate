@@ -34,7 +34,7 @@ function About() {
                 <h2 className="md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center lg:text-4xl">
                   Take Your Health And Body To Next Level
                 </h2>
-                <p className="text-[#646464] font-medium md:text-lg text-4xl md:mt-0 mt-12 text-center md:p-0 p-9 lg:text-sm">
+                <p className="text-[#646464]  md:text-lg text-4xl md:mt-0 mt-12 text-center md:p-0 p-9 lg:text-sm">
                   Take your health and body to the next level with our
                   comprehensive program designed to help you reach your fitness
                   goals.

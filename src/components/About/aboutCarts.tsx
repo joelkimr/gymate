@@ -15,10 +15,10 @@ function AboutCarts() {
             alt="box_img"
             className="md:w-20 md:mb-4 w-44 mb-14 md:mt-9 lg:mt-9"
           />
-          <p className=" md:text-[29px] text-[50px] font-extrabold uppercase mb-12">
+          <p className=" md:text-[25px] text-[50px] font-extrabold uppercase mb-12">
             {card.title}
           </p>
-          <p className="lg:text-[15px] md:text-[20px] text-4xl font-medium leading-2 md:w-full w-4/5 md:h-40 h-32">
+          <p className="lg:text-[15px] md:text-[20px] text-4xl leading-2 md:w-full w-4/5 md:h-40 h-32 pt-4 md:pt-0">
             {card.description}
           </p>
         </div>

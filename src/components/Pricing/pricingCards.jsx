@@ -18,15 +18,15 @@ function PricingBox({ img, price, title }) {
         </div>
         <div className='flex flex-col items-center pt-5 pb-14 gap-9 lg:gap-3'>
           <p className='text-center text-5xl lg:text-3xl font-extrabold relative py-[6px] '>
-            <span className='md:text-3xl lg:text-sm text-4xl text-[#6d6d6d] absolute font-normal top-3 -left-8'>
+            <span className='md:text-3xl lg:text-sm text-4xl text-[#6d6d6d] absolute font-normal top-3 -left-8 lg:-left-4'>
               $
             </span>
             {price}
-            <span className='md:text-base lg:text-xs text-3xl text-[#6d6d6d] absolute font-normal bottom-2xl -right-20'>
+            <span className='md:text-base lg:text-xs text-3xl text-[#6d6d6d] absolute font-normal bottom-2xl -right-20 lg:-right-9'>
               p/m
             </span>
           </p>
-          <div className='flex flex-col md:text-lg lg:text-xs text-4xl font-medium text-center gap-5 text-[#646464] '>
+          <div className='flex flex-col md:text-lg lg:text-sm text-4xl text-center gap-5 text-[#646464] '>
             <p>Free Hand</p>
             <p>Gym Fitness</p>
             <p>Weight Loss</p>

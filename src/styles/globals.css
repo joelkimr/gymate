@@ -56,6 +56,10 @@ body{
     transform: rotate(30deg);
     transition: all .4s;
     z-index: 5;
+    @media (max-width:450px) {
+        display: none
+    
+    }
 }
 
 .item-0-div:hover:after,
