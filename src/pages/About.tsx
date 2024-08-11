@@ -42,7 +42,7 @@ const About = () => {
                 <h2 className="md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center md:ml-0 ml-36">
                   We Will Give You Strength and Health
                 </h2>
-                <p className="text-[#646464] font-medium md:text-lg text-[33px] md:mt-0 mt-12 text-center md:ml-0 ml-20 w-9/12 2xl:w-8/12 ">
+                <p className="text-[#646464] md:text-lg text-[33px] md:mt-0 mt-12 text-center md:ml-0 ml-20 w-9/12 2xl:w-8/12 ">
                   At Gymate, we are dedicated to helping you achieve the body of
                   your dreams. Our expert trainers and nutritionists will work
                   with you to create a personalized fitness and nutrition plan
@@ -67,7 +67,7 @@ const About = () => {
                   <h2 className="md:text-[36px] text-[60px] font-bold mt-3">
                     Our History
                   </h2>
-                  <p className="md:text-[16px] text-[40px] font-medium text-[#646464] mt-5">
+                  <p className="md:text-[16px] text-[40px] text-[#646464] mt-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias autem tempore facere esse nam in rem vero
                     assumenda aperiam debitis facilis velit, optio quam
@@ -98,7 +98,7 @@ const About = () => {
                   <h2 className="md:text-[36px] text-[60px] font-bold mt-3">
                     Our Goal
                   </h2>
-                  <p className="md:text-[16px] text-[40px] font-medium text-[#646464] mt-5">
+                  <p className="md:text-[16px] text-[40px] text-[#646464] mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nulla delectus aut enim saepe tempore illo non accusantium?
                     Officia mollitia minus at necessitatibus, nisi ratione!

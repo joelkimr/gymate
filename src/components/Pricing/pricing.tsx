@@ -28,7 +28,7 @@ function Pricing() {
             <h2 className="md:text-4xl lg:text-4xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
               Exclusive Pricing Plan
             </h2>
-            <p className="text-[#646464] font-medium md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
+            <p className="text-[#646464] md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
               Gymat an unknown printer took a galley of type and scrambled
               <br /> make a type specimen book.
             </p>
@@ -36,7 +36,7 @@ function Pricing() {
           <div className="md:flex md:flex-row flex flex-col items-center md:gap-10 gap-20 mt-16 relative z-[2]">
             <PricingCard img={Img1} price="39" title="Beginner" />
             <PricingCard img={Img2} price="65" title="Advanced" />
-            <PricingCard img={Img3} price="100" title="Pro" />
+            <PricingCard img={Img3} price="100" title="Professional" />
           </div>
           <Image
             src={BgDumbell}

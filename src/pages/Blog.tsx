@@ -48,20 +48,12 @@ const Blog = () => {
             />
           </div>
           <div>
-            <form className="flex">
-              <input
-                className="border-solid border-[1px] text-[#444] lg:text-[16px] text-[35px] md:text-[30px] font-medium h-[60px] py-[5px] px-[20px] w-full rounded-sm outline-none"
-                type="search"
-                placeholder="Search"
-              ></input>
-            </form>
-
-            <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
+            <div className="flex flex-col bg-[#f2f2f2] my-[0px] p-[30px]">
               <p className="lg:text-[18px] md:text-[27px] text-[39px] text-black font-bold mb-2">
                 Categories
               </p>
               <span className="w-[40px] h-[3.5px] bg-[#ff0336]"></span>
-              <ul className="lg:text-[16px] text-[24px] text-[#7e7e7e] font-medium mt-10">
+              <ul className="lg:text-[16px] text-[24px] text-[#7e7e7e] mt-10">
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
@@ -142,7 +134,7 @@ const Blog = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
+            <div className="flex flex-col bg-[#f2f2f2] my-[35px] p-[30px]">
               <p className="lg:text-[18px] md:text-[27px] text-[39px]  text-black font-bold mb-2">
                 Recent Posts
               </p>
@@ -151,7 +143,7 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent1} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
                       March 22, 2022
                     </p>
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -163,7 +155,7 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent2} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
                       March 22, 2022
                     </p>
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -175,7 +167,7 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent3} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
                       March 22, 2022
                     </p>
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -187,7 +179,7 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent4} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
                       March 22, 2022
                     </p>
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -199,7 +191,7 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent5} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
                       March 22, 2022
                     </p>
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -211,7 +203,7 @@ const Blog = () => {
                 <div className="flex gap-8">
                   <Image src={Recent6} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464] font-medium">
+                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
                       March 22, 2022
                     </p>
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
@@ -221,7 +213,7 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
+            <div className="flex flex-col bg-[#f2f2f2] my-[35px] p-[30px]">
               <p className="lg:text-[18px] text-[26px] text-black font-bold mb-2">
                 Popular Tags
               </p>

@@ -34,7 +34,7 @@ function Trainers() {
             <h2 className="md:text-4xl font-bold md:mb-4 lg:text-4xl text-7xl md:mt-0 mt-32">
               Team Of Expert Coaches
             </h2>
-            <p className="text-[#646464] font-medium md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
+            <p className="text-[#646464] md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
               Expert team of coaches helps you succeed in any goal,
               <br /> personalized guidance and motivation provided!
             </p>
@@ -67,7 +67,7 @@ function Trainers() {
                     <h3 className="font-bold md:text-2xl lg:text-lg text-5xl">
                       {train.name}
                     </h3>
-                    <p className="font-medium md:text-lg lg:text-sm text-4xl md:mt-0 mt-5 text-[#646464]">
+                    <p className=" md:text-lg lg:text-sm text-4xl md:mt-0 mt-5 text-[#646464]">
                       {train.job}
                     </p>
                     <div className="flex gap-5 text-[#646464] w-full justify-center mt-5 md:text-2xl text-5xl">

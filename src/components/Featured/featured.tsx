@@ -26,7 +26,6 @@ function Featured() {
               We Are Offering Best Flexible Classes
             </h2>
           </div>
-          {/* grid */}
           <div className="lg:grid lg:grid-cols-4 lg:grid-rows-2 lg:gap-4 h-full lg:mt-2 md:flex md:flex-col md:gap-5 flex flex-col  gap-10">
             <div className="item-0-div md:min-h-max min-h-[40rem] relative ">
               <Image

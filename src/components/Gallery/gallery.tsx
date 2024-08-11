@@ -22,7 +22,7 @@ function Gallery() {
             <h2 className="md:text-4xl lg:text-4xl font-bold md:mb-4 text-7xl md:mt-0 mt-24">
               Our Workplace Gallery
             </h2>
-            <p className="text-[#646464] lg:text-sm font-medium md:text-lg text-4xl md:mt-0 mt-12">
+            <p className="text-[#646464] lg:text-sm md:text-lg text-4xl md:mt-0 mt-12">
               Our Workplace Gallery features modern office, team collaboration,
               and fun culture.
               <br /> Attracts talents and showcases company{`'`}s work
