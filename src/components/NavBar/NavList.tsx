@@ -22,7 +22,6 @@ function NavList() {
         <CustomLink href="/Schedule" title="Schedule" />
         <CustomLink href="/Blog" title="Blog" />
         <CustomLink href="/Pricing" title="Pricing" />
-        <CustomLink href="/Classes" title="Classes" />
         <CustomLink href="/Contact" title="Contact" />
       </ul>
     </>

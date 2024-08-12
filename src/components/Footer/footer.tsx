@@ -60,7 +60,6 @@ function Footer() {
               </p>
             </div>
 
-            {/* right div */}
             <div className="flex flex-col gap-5 relative md:mt-0 mt-16">
               <p className="md:text-[24px] lg:text-xl text-5xl font-bold footer-main">
                 Working Hours

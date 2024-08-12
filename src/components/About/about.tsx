@@ -76,7 +76,7 @@ function About() {
                 </div>
               </div>
               <div className="bg-black/80 lg:w-44 md:w-52 w-80 text-center lg:text-sm md:text-lg text-4xl text-white font-[600] md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-[11.8rem] ml-[29rem] -mt-12 md:-mt-28 lg:-mt-0">
-                <Link href="/Schedule">TAKE A TOUR</Link>
+                <Link href="/Gallery">TAKE A TOUR</Link>
               </div>
             </div>
 
@@ -98,7 +98,7 @@ function About() {
                 <Image
                   src={GirlWind}
                   alt="bg-wind"
-                  className="absolute flex flex-row xl:top-64 lg:top-72 xl:right-16 lg:right-36 w-20"
+                  className="absolute flex flex-row xl:top-64 lg:top-72 xl:right-32 lg:right-36 w-20"
                 />
                 <Image
                   src={GirlText}
