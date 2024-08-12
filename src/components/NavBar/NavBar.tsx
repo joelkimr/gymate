@@ -29,7 +29,7 @@ const NavBar = () => {
         }`}
       >
         <Link href="/">
-          <Image src={Logo} alt="logo_img" className="lg:w-40 md:w-56 w-64" />
+          <Image src={Logo} alt="logo_img" className="lg:w-40 md:w-56 w-80" />
         </Link>
         <div
           onLoad={() => {
@@ -40,7 +40,7 @@ const NavBar = () => {
           }}
           className={`${
             showMenu
-              ? "absolute md:relative top-52 md:top-0  md:left-0 left-[5rem] text-4xl lg:text-sm md:text-base"
+              ? "absolute md:relative top-52 md:top-0 left-[0rem] text-4xl lg:text-sm md:text-base"
               : "hidden md:block"
           }`}
         >
