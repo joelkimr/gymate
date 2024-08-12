@@ -12,7 +12,7 @@ function PricingBox({ img, price, title }) {
             alt='pricing_img'
             className='w-full h-full grayscale'
           />
-          <div className='absolute bg-white md:text-xl lg:text-lg text-5xl font-bold md:w-[25rem] w-full lg:pl-24 xl:pl-0 md:pl-28 xl:text-center pl-80 py-6 text-[#ff0336] -bottom-[18px] left-0 lg:left-4 right-0 mx-auto'>
+          <div className='absolute bg-white md:text-xl lg:text-lg text-5xl font-bold md:w-[25rem] w-full lg:pl-24 xl:pl-0 md:pl-28 xl:text-center pl-80 py-6 text-[#ff0336] -bottom-[18px] left-0 lg:left-0 right-0 mx-auto'>
             {title}
           </div>
         </div>

@@ -39,7 +39,7 @@ const About = () => {
                     className="md:w-64 w-[35rem] absolute -top-0 md:top-3 md:ml-0 ml-44"
                   />
                 </div>
-                <h2 className="md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center md:ml-0 ml-36">
+                <h2 className="md:text-4xl font-bold md:mb-4 text-6xl md:mt-9 mt-24 text-center md:ml-0 ml-36 p-6">
                   We Will Give You Strength and Health
                 </h2>
                 <p className="text-[#646464] md:text-lg text-[33px] md:mt-0 mt-12 text-center md:ml-0 ml-20 w-9/12 2xl:w-8/12 ">

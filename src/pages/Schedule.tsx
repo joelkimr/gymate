@@ -226,7 +226,7 @@ const Schedule = () => {
                   onClick={() => {
                     setSelected(key);
                   }}
-                  className={`md:w-32 md:h-10 w-64 lg:w-28 xl:w-40 h-20 inline-flex items-center justify-center text-center md:text-[16px] text-[44px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl ${
+                  className={`md:w-32 md:h-10 w-72 lg:w-28 xl:w-40 h-20 inline-flex items-center justify-center text-center md:text-[16px] text-[44px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl ${
                     selected === key
                       ? "bg-[#ff0336] text-white"
                       : "bg-none text-black"
