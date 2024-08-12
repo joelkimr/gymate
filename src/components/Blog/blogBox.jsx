@@ -13,9 +13,9 @@ function BlogBox({ date, title, description }) {
           {description}
         </p>
         <Link
-          href='#'
+          href='/blogs'
           className='md:text-lg text-2xl lg:text-xs uppercase font-bold mt-10 md:w-44 w-60 lg:w-24 h-14 lg:h-9 bg-secondary text-white text-center md:pt-4 pt-3 lg:pt-2 rounded-lg md:rounded-sm'>
-          Read more &nbsp;
+          Read more
         </Link>
       </div>
     </>

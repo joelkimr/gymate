@@ -21,7 +21,7 @@ const BlogBox = ({ img, title }: { img: any; title: any }) => {
           fullresearched innovation rather than backend supply. when an unknown
           printer took a galley.
         </p>
-        <div className="bg-secondary text-white md:w-60 w-96 h-auto text-center md:text-lg text-4xl hover:text-[15px] font-[600] p-7 md:p-4 transition duration-300 md:rounded-sm rounded-lg">
+        <div className="bg-secondary text-white md:w-60 w-96 h-auto text-center md:text-lg text-4xl md:hover:text-[19px] hover:text-[37px] font-[600] p-7 md:p-4 transition duration-300 md:rounded-sm rounded-lg">
           <Link href="#">PURCHASE NOW</Link>
         </div>
       </div>

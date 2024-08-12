@@ -15,6 +15,7 @@ import Recent5 from "../images/blogpage/recent5.jpg";
 import Recent6 from "../images/blogpage/recent6.jpg";
 import Footer from "@/components/Footer/footer";
 import Image from "next/image";
+import Link from "next/link";
 
 const Blog = () => {
   return (
@@ -54,7 +55,7 @@ const Blog = () => {
               </p>
               <span className="w-[40px] h-[3.5px] bg-[#ff0336]"></span>
               <ul className="lg:text-[16px] text-[24px] text-[#7e7e7e] mt-10">
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
                     &nbsp;{" "}
@@ -67,7 +68,7 @@ const Blog = () => {
                   </span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
                     &nbsp;
@@ -81,7 +82,7 @@ const Blog = () => {
                   </span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
                     &nbsp;{" "}
@@ -94,7 +95,7 @@ const Blog = () => {
                   </span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
                     &nbsp;{" "}
@@ -107,7 +108,7 @@ const Blog = () => {
                   </span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
                     &nbsp;{" "}
@@ -120,7 +121,7 @@ const Blog = () => {
                   </span>
                 </li>
 
-                <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 hover:text-[#ff0336] ease-in duration-200">
+                <li className="flex justify-between border-b border-[#dcd9d9] pb-2 mb-10 ease-in duration-200">
                   <p>
                     <i className="md:text-[13px] text-[29px]"></i>
                     &nbsp;{" "}
@@ -146,9 +147,12 @@ const Blog = () => {
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
                       March 22, 2022
                     </p>
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <Link
+                      href="/blogs"
+                      className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold"
+                    >
                       Yoga For Everyone in 2022
-                    </p>
+                    </Link>
                   </div>
                 </div>
 
@@ -156,11 +160,14 @@ const Blog = () => {
                   <Image src={Recent2} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
-                      March 22, 2022
+                      June 02, 2022
                     </p>
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <Link
+                      href="/blogs"
+                      className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold"
+                    >
                       Getting Back Into CrossFit
-                    </p>
+                    </Link>
                   </div>
                 </div>
 
@@ -168,7 +175,7 @@ const Blog = () => {
                   <Image src={Recent3} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
-                      March 22, 2022
+                      June 16, 2022
                     </p>
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Meet Fitness Abassador Grace
@@ -180,11 +187,14 @@ const Blog = () => {
                   <Image src={Recent4} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
-                      March 22, 2022
+                      August 09, 2022
                     </p>
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <Link
+                      href="/blogs"
+                      className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold"
+                    >
                       The best are European Meditation Practitioner
-                    </p>
+                    </Link>
                   </div>
                 </div>
 
@@ -192,11 +202,14 @@ const Blog = () => {
                   <Image src={Recent5} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
-                      March 22, 2022
+                      January 22, 2023
                     </p>
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <Link
+                      href="/blogs"
+                      className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold"
+                    >
                       Learn Boxing With Our Trainer John
-                    </p>
+                    </Link>
                   </div>
                 </div>
 
@@ -204,11 +217,14 @@ const Blog = () => {
                   <Image src={Recent6} alt="recent_img" className="w-[8rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-[#646464]">
-                      March 22, 2022
+                      March 18, 2023
                     </p>
-                    <p className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <Link
+                      href="/blogs"
+                      className="text-3xl md:text-2xl lg:text-sm xl:text-lg text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold"
+                    >
                       How To Get Lean For The Summer
-                    </p>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -219,30 +235,14 @@ const Blog = () => {
               </p>
               <span className="w-[40px] h-[3.5px] bg-[#ff0336] mb-7"></span>
               <div className="flex gap-3 lg:text-[16px] text-[27px] text-[#646464] font-medium flex-wrap">
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Crossfit
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Fitness
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Gym
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Meditation
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Running
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Workout
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Yoga
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Boxing
-                </p>
+                <p className="bg-white py-[4px] px-[14px]">#Crossfit</p>
+                <p className="bg-white py-[4px] px-[14px]">#Fitness</p>
+                <p className="bg-white py-[4px] px-[14px]">#Gym</p>
+                <p className="bg-white py-[4px] px-[14px]">#Meditation</p>
+                <p className="bg-white py-[4px] px-[14px]">#Running</p>
+                <p className="bg-white py-[4px] px-[14px]">#Workout</p>
+                <p className="bg-white py-[4px] px-[14px]">#Yoga</p>
+                <p className="bg-white py-[4px] px-[14px]">#Boxing</p>
               </div>
             </div>
             <div className="blog-banner w-full h-[56rem] relative">
