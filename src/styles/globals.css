@@ -357,6 +357,16 @@ body{
     height: 4px;
 }
 
+.get-in-touch span {
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    margin-left: 0px;
+  }
+  
+  .get-in-touch:hover span {
+    margin-left: calc(4px);
+  }
+
 
 /* gallery grid */
 
