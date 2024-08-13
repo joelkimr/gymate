@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Footer from "@/components/Footer/footer";
+import Link from "next/link";
 
 const Schedule = () => {
   const [selected, setSelected] = useState(0);
@@ -11,25 +12,21 @@ const Schedule = () => {
           name: "Fitness",
           time: "9:00 AM - 10:00 PM",
           trainer: "Joel Park",
-          link: "",
         },
         {
           name: "Body building",
           time: "10:00 PM - 11:00 PM",
           trainer: "John Wick",
-          link: "",
         },
         {
           name: "Cycling",
           time: "4:00 PM - 5:00 PM",
           trainer: "Nicky John",
-          link: "",
         },
         {
           name: "Running",
           time: "6:00 PM - 7:00 PM",
           trainer: "Robert Louis",
-          link: "",
         },
       ],
     },
@@ -40,25 +37,21 @@ const Schedule = () => {
           name: "Yoga",
           time: "6:00 AM - 8:00 PM",
           trainer: "???",
-          link: "",
         },
         {
           name: "Karate",
           time: "9:00 PM - 11:00 PM",
           trainer: "Bruce Chen",
-          link: "",
         },
         {
           name: "Cardio",
           time: "6:00 PM - 8:00 PM",
           trainer: "Alexandro Rela",
-          link: "",
         },
         {
           name: "Fitness",
           time: "9:00 PM - 10:00 PM",
           trainer: "Louis Corolla",
-          link: "",
         },
       ],
     },
@@ -69,25 +62,21 @@ const Schedule = () => {
           name: "Power Lifitng",
           time: "7:00 AM - 9:00 PM",
           trainer: "Johnson Bell",
-          link: "",
         },
         {
           name: "Boxing",
           time: "10:00 PM - 11:00 PM",
           trainer: "John Wick",
-          link: "",
         },
         {
           name: "Cardio",
           time: "4:00 PM - 5:00 PM",
           trainer: "Juma Karim",
-          link: "",
         },
         {
           name: "Running",
           time: "6:00 PM - 7:00 PM",
           trainer: "Robert Louis",
-          link: "",
         },
       ],
     },
@@ -98,25 +87,21 @@ const Schedule = () => {
           name: "Yoga",
           time: "9:00 AM - 10:00 PM",
           trainer: "Jessi Palm",
-          link: "",
         },
         {
           name: "Body building",
           time: "10:00 PM - 11:00 PM",
           trainer: "Carlos Mendez",
-          link: "",
         },
         {
-          name: "Running",
+          name: "Karate",
           time: "4:00 PM - 5:00 PM",
           trainer: "Coach Bob",
-          link: "",
         },
         {
           name: "Fitness",
           time: "6:00 PM - 7:00 PM",
           trainer: "Robert Louis",
-          link: "",
         },
       ],
     },
@@ -127,25 +112,21 @@ const Schedule = () => {
           name: "Crossing",
           time: "9:00 AM - 10:00 PM",
           trainer: "???",
-          link: "",
         },
         {
           name: "Body building",
           time: "10:00 PM - 11:00 PM",
           trainer: "John Wick",
-          link: "",
         },
         {
           name: "Cycling",
           time: "4:00 PM - 5:00 PM",
           trainer: "???",
-          link: "",
         },
         {
           name: "Running",
           time: "6:00 PM - 7:00 PM",
           trainer: "???",
-          link: "",
         },
       ],
     },
@@ -153,28 +134,24 @@ const Schedule = () => {
       title: "Saturday",
       activities: [
         {
-          name: "Fitness",
+          name: "Karate",
           time: "9:00 AM - 10:00 PM",
           trainer: "Joel Park",
-          link: "",
         },
         {
           name: "Body building",
           time: "10:00 PM - 11:00 PM",
           trainer: "John Wick",
-          link: "",
         },
         {
           name: "Cycling",
           time: "4:00 PM - 5:00 PM",
           trainer: "???",
-          link: "",
         },
         {
           name: "Running",
           time: "6:00 PM - 7:00 PM",
           trainer: "Robert Louis",
-          link: "",
         },
       ],
     },
@@ -185,25 +162,21 @@ const Schedule = () => {
           name: "Yoga",
           time: "6:00 AM - 80:00 PM",
           trainer: "Sarah J.",
-          link: "",
         },
         {
           name: "Body building",
           time: "10:00 PM - 11:00 PM",
           trainer: "John Wick",
-          link: "",
         },
         {
           name: "Cycling",
           time: "4:00 PM - 5:00 PM",
           trainer: "Nicky John",
-          link: "",
         },
         {
           name: "Running",
           time: "6:00 PM - 7:00 PM",
           trainer: "Robert Louis",
-          link: "",
         },
       ],
     },
@@ -283,9 +256,12 @@ const RowOne = ({ data }: { data: any }) => {
               </p>
             </li>
             <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full items-center flex md:justify-end justify-center">
-              <button className="text-white md:text-[15px] text-4xl font-medium bg-[#555] md:py-[3px] lg:py-[1px] py-[25px] md:px-[20px] px-[35px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200">
+              <Link
+                href="/JoinClass"
+                className="text-white md:text-[15px] text-4xl font-medium bg-[#555] md:py-[3px] lg:py-[1px] py-[25px] md:px-[20px] px-[35px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200"
+              >
                 Join Now
-              </button>
+              </Link>
             </li>
           </ul>
         );
