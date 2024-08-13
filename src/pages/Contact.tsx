@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="xl:w-5/12 lg:6/12 md:w-7/12 flex flex-col mx-auto my-11 md:p-0 p-16 lg:space-y-4 space-y-11">
           <h1 className="font-bold lg:text-2xl md:text-4xl text-6xl text-center">
             Feel free and welcomed to get in touch over Phone, Chat, Email or
-            Beverage
+            Visit
           </h1>
           <div className="flex flex-col mx-auto border border-black/40 rounded-2xl lg:w-[32rem] md:w-[42rem] w-[70rem] md:h-96 h-[39rem] items-center justify-center bg-[#f8f8f8] space-y-6 md:space-y-1">
             <h1 className="font-semibold lg:text-2xl md:text-3xl text-5xl">

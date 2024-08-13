@@ -53,7 +53,7 @@ const NavBar = () => {
           {showMenu ? <IoMdClose /> : <FiMenu />}
         </button>
         <div className="border-[rgb(255,255,255,0.3)] border-solid border-2  p-2 rounded-md hidden md:block">
-          <Link href="/Schedule" className="flex items-center ">
+          <Link href="/JoinClass" className="flex items-center ">
             <i className="bg-[#FF0336] text-white text-xl py-2 px-3 rounded-md"></i>
             <h3 className="text-white md:text-[11px] text-2xl font-[600] uppercase ml-2 mr-2 hover:text-red-400 transition duration-500 ">
               join class now
