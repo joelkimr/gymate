@@ -46,6 +46,7 @@ const NavBar = () => {
         >
           <NavList />
         </div>
+
         <button
           onClick={() => setShowMenu(!showMenu)}
           className="text-white text-6xl md:hidden block"
