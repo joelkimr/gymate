@@ -12,18 +12,18 @@ function Hero() {
         <div className="container-hero">
           <div
             className="flex flex-col text-white md:w-auto
-           absolute md:-right-[7rem] lg:right-52 lg:top-40 xl:top-64 md:top-[10rem] top-96 md:left-auto left-96  w-[48rem] 2xl:right-[50rem] 
+           absolute md:-right-[7rem] lg:right-52 lg:top-40 xl:top-64 md:top-[10rem] top-96 md:left-auto left-60  w-[48rem] 2xl:right-[50rem] 
            "
           >
-            <p className="text-white lg:text-sm md:text-xl text-[30px] uppercase font-medium relative z-10 lg:pl-9 md:pl-14 pl-36 mb-8 lg:block md:hidden block lg:-top-1">
+            <p className="text-white lg:text-sm md:text-xl text-[43px] uppercase font-medium relative z-10 lg:pl-9 md:pl-14 pl-36 mb-8 lg:block md:hidden block lg:-top-1">
               find your energy
             </p>
             <Image
               src={TitleBg}
               alt="text_bg"
-              className=" w-[54%] absolute -top-3 title-white md:ml-auto ml-20 lg:block md:hidden block"
+              className=" lg:w-[54%] w-[70%] absolute -top-3 title-white md:ml-auto ml-20 lg:block md:hidden block"
             />
-            <h1 className="font-bold lg:text-[40px] md:text-[60px] uppercase mb-[4rem] text-[88px]">
+            <h1 className="font-bold lg:text-[40px] md:text-[60px] uppercase mb-[4rem] text-[120px]">
               make your body <br />
               <span className="font-thin">fit & perfect</span>
             </h1>

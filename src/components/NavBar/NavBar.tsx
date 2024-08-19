@@ -29,7 +29,7 @@ const NavBar = () => {
         }`}
       >
         <Link href="/">
-          <Image src={Logo} alt="logo_img" className="lg:w-40 md:w-56 w-80" />
+          <Image src={Logo} alt="logo_img" className="lg:w-40 md:w-56 w-96" />
         </Link>
         <div
           onLoad={() => {

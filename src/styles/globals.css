@@ -28,7 +28,8 @@ body{
     background-size: cover;
     background-position: center center;
     @media(max-width:450px) {
-        height: 200vh;
+        height: 270vh;
+        width: 420vw;
     }
  
 }
