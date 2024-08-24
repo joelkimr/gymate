@@ -10,17 +10,17 @@ import Image from "next/image";
 const Contact = () => {
   return (
     <>
-      <section className=" login-section">
+      <section className="login-section">
         <div className="login-banner relative justify-center flex w-full">
           <h1 className="text-white absolute bottom-2 md:text-[30px] text-[70px] font-bold">
             Contact
           </h1>
         </div>
-        <div className="md:w-7/12 lg:11/12 xl:1/2 w-full space-y-12 mx-auto  md:mt-32 mt-32 mb-32 relative">
+        <div className="md:w-7/12 lg:w-8/12 xl:w-1/2 w-full space-y-12 mx-auto  md:mt-20 mt-32 mb-32 relative">
           <Image
             src={TrainHarder}
             alt="bg_icon"
-            className="md:-left-56 lg:-left-48  xl:-left-80 -top-28 absolute z-[1]"
+            className="md:-left-56 lg:-left-48  xl:-left-80 -top-16 absolute z-[1]"
           />
           <div className="flex flex-col gap-11 p-9">
             <h1 className="md:text-4xl text-8xl font-extrabold text-center">
@@ -33,7 +33,7 @@ const Contact = () => {
               you reach your specific goals.
             </p>
           </div>
-          <div className="flex md:flex-row flex-col md:gap-12 lg:gap-20 xl:gap-44 md:ml-9 items-center ">
+          <div className="flex md:flex-row flex-col md:gap-12 lg:gap-20 xl:gap-32 md:ml-9 items-center ">
             <div className="flex flex-col md:gap-5 gap-20">
               <div className="relative space-y-5">
                 <p className="md:text-[24px] lg:text-2xl text-7xl font-bold footer-main">
