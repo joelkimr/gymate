@@ -35,7 +35,7 @@ function PricingBox({ img, price, title }) {
           </div>
 
           <div className='md:w-44 w-80 lg:w-36 text-center text-black/90 md:text-lg text-3xl lg:text-xs font-[600] md:p-3 p-6 transition duration-300 rounded-sm uppercase bg-secondary hover:bg-secondary/80 text-white'>
-            <Link href='#'>purchase now</Link>
+            <Link href='/JoinClass'>purchase now</Link>
           </div>
         </div>
       </div>

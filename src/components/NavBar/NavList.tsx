@@ -19,7 +19,7 @@ function NavList() {
         <span className="w-1/3 border-[rgb(255,255,255,0.3)] border-solid border-2  p-7 rounded-md block md:hidden ml-[28rem]">
           <Link href="/JoinClass" className="flex items-center ">
             <h3 className="text-white text-4xl font-[600] uppercase hover:text-red-400 transition duration-500 ">
-              join class now
+              join class
             </h3>
           </Link>
         </span>
