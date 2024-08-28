@@ -11,7 +11,7 @@ function CtaBanner() {
           </h2>
           <br />
           <h3 className="md:text-2xl text-5xl font-bold mb-9">
-            <span className="text-[#FF0336]">Call:</span> + XX XXX XXX XX
+            <span className="text-[#FF0336]">Call:</span> + 1 234 567 89
           </h3>
           <div className="bg-white md:w-44 w-64 h-auto text-center text-black/90 md:text-sm text-3xl font-[600] p-7 md:p-4 hover:bg-secondary hover:text-white transition duration-300 md:rounded-sm rounded-lg">
             <Link href="/Contact">JOIN US ...</Link>

@@ -132,7 +132,7 @@ function Featured() {
               We Are Always Providing Best Fitness Service For You
             </h2>
             <div className="bg-white w-44 text-center text-black/90 text-sm font-[600] p-4 hover:border hover:border-white hover:bg-secondary hover:text-white transition duration-300 rounded-sm ">
-              <Link href="/Contact">JOIN US ...</Link>
+              <Link href="/JoinClass">JOIN US ...</Link>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ function Featured() {
           </p>
         </div>
         <div className="bg-white w-80 h-auto text-black/90 text-4xl font-[600] p-6 hover:border hover:border-gray-500 transition duration-300 rounded-lg ml-[29rem]">
-          <Link href="/Contact">JOIN US</Link>
+          <Link href="/JoinClass">JOIN US</Link>
         </div>
       </div>
     </>
