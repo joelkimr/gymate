@@ -47,17 +47,26 @@ const NavBar = () => {
         >
           <NavList />
         </div>
-
-        <button
-          onClick={() => setShowMenu(!showMenu)}
-          className="text-white text-6xl md:hidden block"
-        >
-          {showMenu ? <IoMdClose /> : <FiMenu />}
-        </button>
-        <div className="flex flex-row items-center justify-center gap-3">
+        <div className="flex flex-row items-center gap-9">
           <div>
             <Link
-              href="/SignUp"
+              href="/Login"
+              className="text-white text-6xl hover:text-red-400 transition duration-500 md:hidden block"
+            >
+              <MdPerson />
+            </Link>
+          </div>
+          <button
+            onClick={() => setShowMenu(!showMenu)}
+            className="text-white text-6xl md:hidden block"
+          >
+            {showMenu ? <IoMdClose /> : <FiMenu />}
+          </button>
+        </div>
+        <div className="md:flex flex-row items-center justify-center gap-3 md:block hidden">
+          <div>
+            <Link
+              href="/Login"
               className="text-white text-2xl hover:text-red-400 transition duration-500"
             >
               <MdPerson />

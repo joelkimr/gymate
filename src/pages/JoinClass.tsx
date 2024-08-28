@@ -41,12 +41,15 @@ const JoinClass = () => {
   return (
     <section className="pricing-section relative w-full">
       <div className="login-banner relative justify-center flex w-full">
-        <h1 className="text-white absolute bottom-2 md:text-[30px] text-[70px] font-bold">
+        <h1 className="text-white absolute bottom-2 md:text-[30px] text-[70px] font-bold md:block hidden">
           Join Our Class
         </h1>
       </div>
-      <div className="w-full flex flex-col  mx-auto relative  md:mt-20 mt-32 mb-24 gap-16 ">
-        <div className="lg:w-5/12 md:w-6/12 w-11/12 mx-auto md:mt-8 mt-32 md:mb-20 mb-36 relative z-[9] bg-black rounded-sm p-9">
+      <div className="w-full flex flex-col  mx-auto relative  md:mt-20 mt-16 mb-24 gap-16 ">
+        <p className="md:text-[30px] text-[70px] font-bold mx-auto md:hidden block">
+          Join Our Class
+        </p>
+        <div className="lg:w-5/12 md:w-6/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] bg-black rounded-sm p-9">
           <form onSubmit={HandleSubmit}>
             <div className="flex flex-wrap md:flex-nowrap space-y-20 md:space-y-0 md:space-x-4 lg:space-x-6 2xl:space-x-8 mb-4">
               <div className="w-full bg-white md:h-16 h-48 rounded-sm p-3 py-4">
@@ -177,10 +180,10 @@ const JoinClass = () => {
               </div>
             </div>
             <div className="w-full h-16 flex items-center">
-              <p className="text-white">
+              <p className="text-white md:text-sm text-[37px] mt-16 md:mt-0">
                 Already have an account ?{" "}
-                <span className="text-[#F73F36] font-bold">
-                  <Link href="/SignUp">Sign in</Link>
+                <span className="text-[#F73F36] font-bold hover:underline">
+                  <Link href="/Login">Sign in</Link>
                 </span>
               </p>
             </div>
@@ -201,13 +204,9 @@ const JoinClass = () => {
               <option value="8">Fitness</option>
               <option value="9">Cardio</option>
             </select> */}
-            <div className="flex justify-center md:mt-12 mt-32">
+            <div className="flex justify-center md:mt-12 mt-32 mb-20 md:mb-0">
               <div className="w-full md:w-72 text-center lg:text-lg md:text-2xl text-4xl md:py-2 py-7 rounded-sm bg-[#F73F36] hover:bg-red-500 transition ease-out duration-300 text-white hover:text-white font-medium ">
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="get-in-touch relative"
-                >
+                <button type="submit" disabled={loading}>
                   {loading ? "- - -" : "Register"}
                 </button>
               </div>
