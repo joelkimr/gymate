@@ -85,7 +85,7 @@ const Login = () => {
             </div>
             <div className="w-full h-16 flex items-center">
               <p className="text-white md:text-sm text-[37px] mt-16 md:mt-0">
-                Don't have an account ?{" "}
+                Don{`'`}t have an account ?{" "}
                 <span className="text-[#F73F36] font-bold hover:underline">
                   <Link href="/JoinClass">Join Class</Link>
                 </span>
