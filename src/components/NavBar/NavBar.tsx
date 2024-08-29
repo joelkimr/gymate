@@ -51,7 +51,7 @@ const NavBar = () => {
           <div>
             <Link
               href="/Login"
-              className="text-white text-6xl hover:text-red-400 transition duration-500 md:hidden block"
+              className="text-white text-7xl hover:text-red-400 transition duration-500 md:hidden block"
             >
               <MdPerson />
             </Link>
@@ -67,7 +67,7 @@ const NavBar = () => {
           <div>
             <Link
               href="/Login"
-              className="text-white text-2xl hover:text-red-400 transition duration-500"
+              className="text-white text-3xl hover:text-red-400 transition duration-500"
             >
               <MdPerson />
             </Link>
