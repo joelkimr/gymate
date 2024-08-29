@@ -147,8 +147,8 @@ const JoinClass = () => {
                   autoComplete="off"
                   className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="Enter Password"
-                  // value={email}
-                  // onChange={(e) => setEmail(e.target.value)}
+                  // value={password}
+                  // onChange={(e) => setPassword(e.target.value)}
                 />
                 <label
                   htmlFor="password"
@@ -168,8 +168,8 @@ const JoinClass = () => {
                   autoComplete="off"
                   className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="Confirm Password"
-                  // value={email}
-                  // onChange={(e) => setEmail(e.target.value)}
+                  // value={password}
+                  // onChange={(e) => setPassword(e.target.value)}
                 />
                 <label
                   htmlFor="confirmpassword"
