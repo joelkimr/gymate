@@ -52,7 +52,7 @@ const JoinClass = () => {
         <div className="lg:w-5/12 md:w-6/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] bg-black rounded-sm p-9">
           <form onSubmit={HandleSubmit}>
             <div className="flex flex-wrap md:flex-nowrap space-y-20 md:space-y-0 md:space-x-4 lg:space-x-6 2xl:space-x-8 mb-4">
-              <div className="w-full bg-white md:h-16 h-48 rounded-sm p-3 py-4">
+              <div className="w-full bg-white md:h-16 h-48 rounded-sm p-3 py-5">
                 <div className="relative">
                   <input
                     id="name"
@@ -60,7 +60,7 @@ const JoinClass = () => {
                     type="text"
                     required
                     autoComplete="off"
-                    className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative md:top-2 left-7 md:left-0 top-20 5xl:text-xl md:text-sm text-4xl"
+                    className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                     placeholder="first name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -73,7 +73,7 @@ const JoinClass = () => {
                   </label>
                 </div>
               </div>
-              <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-4">
+              <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5">
                 <div className="relative">
                   <input
                     id="name"
@@ -81,7 +81,7 @@ const JoinClass = () => {
                     type="text"
                     required
                     autoComplete="off"
-                    className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative md:top-2 left-7 md:left-0 top-20 5xl:text-xl md:text-sm text-4xl"
+                    className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                     placeholder="last name"
                     value={lastname}
                     onChange={(e) => setLastName(e.target.value)}
@@ -95,7 +95,7 @@ const JoinClass = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-4 mt-20 md:mt-0">
+            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5 mt-20 md:mt-0">
               <div className="relative flex-1">
                 <input
                   id="number"
@@ -103,7 +103,7 @@ const JoinClass = () => {
                   type="number"
                   required
                   autoComplete="off"
-                  className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
+                  className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="please enter phone number"
                   value={telnumber}
                   onChange={(e) => setTelNumber(e.target.value)}
@@ -116,7 +116,7 @@ const JoinClass = () => {
                 </label>
               </div>
             </div>
-            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-4 md:mt-4 mt-20">
+            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5 md:mt-4 mt-20">
               <div className="relative flex-1">
                 <input
                   id="email"
@@ -124,7 +124,7 @@ const JoinClass = () => {
                   type="email"
                   required
                   autoComplete="off"
-                  className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-20 5xl:text-xl md:text-sm text-4xl"
+                  className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="your email address"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -137,7 +137,7 @@ const JoinClass = () => {
                 </label>
               </div>
             </div>
-            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-4 md:mt-4 mt-20">
+            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5 md:mt-4 mt-20">
               <div className="relative flex-1">
                 <input
                   id="password"
@@ -145,7 +145,7 @@ const JoinClass = () => {
                   type="password"
                   required
                   autoComplete="off"
-                  className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-20 5xl:text-xl md:text-sm text-4xl"
+                  className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="Enter Password"
                   // value={email}
                   // onChange={(e) => setEmail(e.target.value)}
@@ -158,7 +158,7 @@ const JoinClass = () => {
                 </label>
               </div>
             </div>
-            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-4 md:mt-4 mt-20">
+            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5 md:mt-4 mt-20">
               <div className="relative flex-1">
                 <input
                   id="password"
@@ -166,7 +166,7 @@ const JoinClass = () => {
                   type="password"
                   required
                   autoComplete="off"
-                  className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-20 5xl:text-xl md:text-sm text-4xl"
+                  className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="Confirm Password"
                   // value={email}
                   // onChange={(e) => setEmail(e.target.value)}

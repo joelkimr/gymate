@@ -41,7 +41,7 @@ const Login = () => {
         </p>
         <div className="lg:w-5/12 md:w-6/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] bg-black rounded-sm p-9">
           <form onSubmit={HandleSubmit}>
-            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-4 md:mt-4 mt-20">
+            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5 md:mt-4 mt-20">
               <div className="relative flex-1">
                 <input
                   id="email"
@@ -49,7 +49,7 @@ const Login = () => {
                   type="email"
                   required
                   autoComplete="off"
-                  className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-20 5xl:text-xl md:text-sm text-4xl"
+                  className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="your email address"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -62,7 +62,7 @@ const Login = () => {
                 </label>
               </div>
             </div>
-            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-4 md:mt-4 mt-20">
+            <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5 md:mt-4 mt-20">
               <div className="relative flex-1">
                 <input
                   id="password"
@@ -70,7 +70,7 @@ const Login = () => {
                   type="password"
                   required
                   autoComplete="off"
-                  className="peer h-8 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-20 5xl:text-xl md:text-sm text-4xl"
+                  className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="Enter Password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
