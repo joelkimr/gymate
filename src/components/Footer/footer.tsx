@@ -35,53 +35,54 @@ function Footer() {
                 </p>
               </div>
             </div>
+            <div className="flex flex-row md:gap-20 gap-96 items-center">
+              <div className="flex flex-col gap-5 relative md:mt-0 mt-9">
+                <p className="md:text-2xl lg:text-xl text-5xl font-bold footer-main">
+                  Our Classes
+                </p>
 
-            <div className="flex flex-col gap-5 relative md:mt-0 mt-9">
-              <p className="md:text-2xl lg:text-xl text-5xl font-bold footer-main">
-                Our Classes
-              </p>
+                <span className="md:top-[32px] top-[50px] absolute md:w-12 w-32 md:h-[2px] h-[8px] bg-[#ff0366]"></span>
 
-              <span className="md:top-[32px] top-[50px] absolute md:w-12 w-32 md:h-[2px] h-[8px] bg-[#ff0366]"></span>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium md:mt-0 mt-9">
+                  Fitness Classes
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
+                  Aerobics Classes
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
+                  Power Yoga
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
+                  Learn Machines
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
+                  Full-body Strength
+                </p>
+              </div>
 
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium md:mt-0 mt-9">
-                Fitness Classes
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
-                Aerobics Classes
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
-                Power Yoga
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
-                Learn Machines
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
-                Full-body Strength
-              </p>
-            </div>
+              <div className="flex flex-col gap-5 relative md:mt-0 mt-16">
+                <p className="md:text-[24px] lg:text-xl text-5xl font-bold footer-main">
+                  Working Hours
+                </p>
 
-            <div className="flex flex-col gap-5 relative md:mt-0 mt-16">
-              <p className="md:text-[24px] lg:text-xl text-5xl font-bold footer-main">
-                Working Hours
-              </p>
+                <span className="md:top-[28px] top-[54px] absolute md:w-20 w-44 md:h-[2px] h-[8px] bg-[#ff0366]"></span>
 
-              <span className="md:top-[39px] top-[54px] absolute md:w-20 w-44 md:h-[2px] h-[8px] bg-[#ff0366]"></span>
-
-              <p className="md:text-lg lg:text-sm text-4xl  text-[#646464] font-bold md:mt-0 mt-9">
-                Monday - Friday:
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
-                7:00am - 21:00pm
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-bold">
-                Saturday:
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
-                7:00am - 19:00pm
-              </p>
-              <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-bold ">
-                Sunday - Closed
-              </p>
+                <p className="md:text-lg lg:text-sm text-4xl  text-[#646464] font-bold md:mt-0 mt-9">
+                  Monday - Friday:
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
+                  7:00am - 21:00pm
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-bold">
+                  Saturday:
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-medium">
+                  7:00am - 19:00pm
+                </p>
+                <p className="md:text-lg lg:text-sm text-4xl text-[#646464] font-bold ">
+                  Sunday - Closed
+                </p>
+              </div>
             </div>
             <div className="flex flex-row md:text-2xl text-6xl md:gap-4 gap-8 items-center md:hidden md:mt-0 mt-28">
               <AiOutlineTwitter className="text-sky-500 cursor-pointer" />

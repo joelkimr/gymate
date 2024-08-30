@@ -1,42 +1,67 @@
 import React, { FormEvent, useState } from "react";
 import Footer from "@/components/Footer/footer";
 import Link from "next/link";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth, db } from "@/firebase";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { addDoc, collection } from "firebase/firestore";
+import { useRouter } from "next/router";
 
 const JoinClass = () => {
-  const [loading, setLoading] = useState(false);
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
-  const [telnumber, setTelNumber] = useState("");
-  const [lastname, setLastName] = useState("");
+  const [email, setEmail] = useState<string>("");
+  const [firstName, setfirstName] = useState<string>("");
+  const [lastName, setlastName] = useState<string>("");
+  const [phone, setPhone] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
+  const [confirmpassword, setconfirmPassword] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+  const [errors, setErrors] = useState<string>("");
 
-  async function HandleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
+  const router = useRouter();
 
-    setLoading(true);
-    if (
-      email === "" &&
-      name === "" &&
-      message === "" &&
-      telnumber === "" &&
-      lastname === ""
-    ) {
-      console.log("Please fill all the Fields!");
-      return;
-    } else {
-      await fetch("/api/email", {
-        method: "POST",
-        body: JSON.stringify({ telnumber, email, name, message, lastname }),
-        headers: {
-          "Content-type": "application/json",
-        },
+  const handleSignup = async (e: FormEvent<HTMLFormElement>) => {
+    try {
+      e.preventDefault();
+      setLoading(true);
+      const user = await createUserWithEmailAndPassword(auth, email, password);
+      setLoading(false);
+
+      const dataCollection = collection(db, "userInfo");
+
+      const response = await addDoc(dataCollection, {
+        first_name: firstName,
+        last_name: lastName,
+        phone_number: phone,
+        user_id: user.user.uid,
       });
+
+      if (response.id) {
+        setfirstName("");
+        setlastName("");
+        setPhone("");
+        setEmail("");
+        setPassword("");
+        setconfirmPassword("");
+
+        localStorage.setItem("user_id", user.user.uid);
+
+        router.push("/profile");
+      }
+
+      console.log({ user });
+    } catch (err) {
+      console.log({ err });
+      if (
+        String(err) ===
+        "FirebaseError: Firebase: Error (auth/email-already-in-use)."
+      ) {
+        setErrors("Email taken already");
+      } else {
+        setErrors("Unknown Error");
+      }
     }
     setLoading(false);
-    setEmail("");
-    setName("");
-    setMessage("");
-  }
+  };
 
   return (
     <section className="pricing-section relative w-full">
@@ -50,7 +75,7 @@ const JoinClass = () => {
           Join Our Class
         </p>
         <div className="lg:w-5/12 md:w-6/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] bg-black rounded-sm p-9">
-          <form onSubmit={HandleSubmit}>
+          <form onSubmit={handleSignup}>
             <div className="flex flex-wrap md:flex-nowrap space-y-20 md:space-y-0 md:space-x-4 lg:space-x-6 2xl:space-x-8 mb-4">
               <div className="w-full bg-white md:h-16 h-48 rounded-sm p-3 py-5">
                 <div className="relative">
@@ -62,8 +87,8 @@ const JoinClass = () => {
                     autoComplete="off"
                     className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                     placeholder="first name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    value={firstName}
+                    onChange={(e) => setfirstName(e.target.value)}
                   />
                   <label
                     htmlFor="name"
@@ -83,8 +108,8 @@ const JoinClass = () => {
                     autoComplete="off"
                     className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                     placeholder="last name"
-                    value={lastname}
-                    onChange={(e) => setLastName(e.target.value)}
+                    value={lastName}
+                    onChange={(e) => setlastName(e.target.value)}
                   />
                   <label
                     htmlFor="lastname"
@@ -105,8 +130,8 @@ const JoinClass = () => {
                   autoComplete="off"
                   className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="please enter phone number"
-                  value={telnumber}
-                  onChange={(e) => setTelNumber(e.target.value)}
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                 />
                 <label
                   htmlFor="telNumber"
@@ -145,10 +170,12 @@ const JoinClass = () => {
                   type="password"
                   required
                   autoComplete="off"
+                  min={6}
+                  minLength={6}
                   className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="Enter Password"
-                  // value={password}
-                  // onChange={(e) => setPassword(e.target.value)}
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                 />
                 <label
                   htmlFor="password"
@@ -165,11 +192,13 @@ const JoinClass = () => {
                   name="password"
                   type="password"
                   required
+                  min={6}
+                  minLength={6}
                   autoComplete="off"
                   className="peer h-14 md:h-10 5xl:h-14 w-full placeholder-transparent focus:outline-none bg-transparent relative  md:top-2 left-7 md:left-0 top-16 5xl:text-xl md:text-sm text-4xl"
                   placeholder="Confirm Password"
-                  // value={password}
-                  // onChange={(e) => setPassword(e.target.value)}
+                  value={confirmpassword}
+                  onChange={(e) => setconfirmPassword(e.target.value)}
                 />
                 <label
                   htmlFor="confirmpassword"
@@ -187,27 +216,16 @@ const JoinClass = () => {
                 </span>
               </p>
             </div>
-            {/* <select
-              name="classes"
-              id="class"
-              className="w-full bg-white border border-black/30 md:h-16 h-48 rounded-sm md:p-2 p-8 py-4 md:mt-4 mt-20 text-gray-700 focus:outline-none md:text-sm text-4xl"
-            >
-              <option value="#">Select Class</option>
-              <option value="1">Cycling</option>
-              <option value="2">Yoga</option>
-              <option value="3">Power Lifting</option>
-              <option value="4">Karate</option>
-              <option value="5">Boxing</option>
-              <option value="5">Running</option>
-              <option value="6">Body Building</option>
-              <option value="7">Crossing</option>
-              <option value="8">Fitness</option>
-              <option value="9">Cardio</option>
-            </select> */}
+            <div className="text-white">{errors}</div>
+
             <div className="flex justify-center md:mt-12 mt-32 mb-20 md:mb-0">
               <div className="w-full md:w-72 text-center lg:text-lg md:text-2xl text-4xl md:py-2 py-7 rounded-sm bg-[#F73F36] hover:bg-red-500 transition ease-out duration-300 text-white hover:text-white font-medium ">
-                <button type="submit" disabled={loading}>
-                  {loading ? "- - -" : "Register"}
+                <button type="submit">
+                  {loading ? (
+                    <AiOutlineLoading3Quarters className="animate-spin" />
+                  ) : (
+                    "Sign up"
+                  )}
                 </button>
               </div>
             </div>
