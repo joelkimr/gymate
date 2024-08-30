@@ -1,32 +1,55 @@
 import Link from "next/link";
 import React, { FormEvent, useState } from "react";
 import Footer from "@/components/Footer/footer";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import { auth } from "@/firebase";
+import { useRouter } from "next/router";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const Login = () => {
-  const [loading, setLoading] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+  const [errors, setErrors] = useState<string>("");
 
-  async function HandleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
+  const router = useRouter();
 
-    setLoading(true);
-    if (email === "" && password === "") {
-      console.log("Please fill all the Fields!");
-      return;
-    } else {
-      await fetch("/api/email", {
-        method: "POST",
-        body: JSON.stringify({ email, password }),
-        headers: {
-          "Content-type": "application/json",
-        },
-      });
+  const handleSignin = async (e: FormEvent<HTMLFormElement>) => {
+    try {
+      e.preventDefault();
+      setLoading(true);
+      const user = await signInWithEmailAndPassword(auth, email, password);
+      setLoading(false);
+
+      console.log(user);
+
+      if (user) {
+        setEmail("");
+        setPassword("");
+
+        localStorage.setItem("user_id", user.user.uid);
+
+        router.push("/profile");
+      }
+
+      console.log({ user });
+    } catch (err: any) {
+      if (
+        String(err) ===
+        "FirebaseError: Firebase: Error (auth/invalid-credential)."
+      ) {
+        setErrors("Wrong Email or Password.");
+      } else if (err.code === "auth/user-not-found") {
+        setErrors("Wrong Email or Password.");
+      } else if (err.code === "auth/wrong-password") {
+        setErrors("Wrong Email or Password.");
+      } else {
+        setErrors("Unknown Error");
+      }
+      console.log({ err });
     }
     setLoading(false);
-    setEmail("");
-    setPassword("");
-  }
+  };
 
   return (
     <section className="login-section">
@@ -40,7 +63,7 @@ const Login = () => {
           Login
         </p>
         <div className="lg:w-5/12 md:w-6/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] bg-black rounded-sm p-9">
-          <form onSubmit={HandleSubmit}>
+          <form onSubmit={handleSignin}>
             <div className="w-full bg-white  md:h-16 h-48 rounded-sm p-3 py-5 md:mt-4 mt-20">
               <div className="relative flex-1">
                 <input
@@ -91,10 +114,15 @@ const Login = () => {
                 </span>
               </p>
             </div>
+            <div className="text-red-400">{errors}</div>
             <div className="flex justify-center md:mt-12 mt-32 mb-20 md:mb-0">
               <div className="w-full md:w-72 text-center lg:text-lg md:text-2xl text-4xl md:py-2 py-7 rounded-sm bg-[#F73F36] hover:bg-red-500 transition ease-out duration-300 text-white hover:text-white font-medium ">
                 <button type="submit" disabled={loading}>
-                  {loading ? "- - -" : "Login"}
+                  {loading ? (
+                    <AiOutlineLoading3Quarters className="animate-spin" />
+                  ) : (
+                    "Login"
+                  )}
                 </button>
               </div>
             </div>
