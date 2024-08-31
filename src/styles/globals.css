@@ -31,6 +31,10 @@ body{
         height: 270vh;
         width: 420vw;
     }
+    @media(min-width:2000px) {
+        height: 103vh;
+        width: 140vw;
+    }
  
 }
 
