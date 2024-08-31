@@ -20,8 +20,8 @@ function About() {
           <div className="flex flex-col lg:flex-row md:flex-col lg:gap-8 md:gap-0 gap-32 md:mx-32 xl:mx-44 lg:mx-14 lg:-mt-20 md:-mt-0 absolute m-20 left-0 xxl:left-[30rem] xxl:right-[30rem]">
             <AboutCarts />
           </div>
-          <div className="lg:flex lg:flex-row xl:justify-around lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-9 lg:gap-16 md:top-[79rem] top-[129rem] md:items-center lg:ml-0 md:ml-72 left-0 xxl:left-[38rem]">
-            <div className="lg:w-2/5 md:w-3/4 ">
+          <div className="lg:flex lg:flex-row xl:justify-around lg:justify-center xl:mx-0 lg:top-96 absolute xl:gap-9 lg:gap-16 md:top-[79rem] top-[129rem] md:items-center xxl:left-[38rem]">
+            <div className="lg:w-2/5 md:w-3/4 mx-auto">
               <div className="relative">
                 <p className="text-white font-semibold relative md:text-lg text-4xl uppercase lg:text-sm z-10 md:p-0 p-5 md:ml-56 lg:-top-2 lg:ml-52 ml-[30rem]">
                   who we are

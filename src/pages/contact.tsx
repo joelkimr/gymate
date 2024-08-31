@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="flex md:flex-row flex-col md:gap-12 lg:gap-20 xl:gap-32 md:ml-9 items-center ">
             <div className="flex flex-col md:gap-5 gap-20">
               <div className="relative space-y-5">
-                <p className="md:text-[24px] lg:text-2xl text-7xl font-bold footer-main">
+                <p className="md:text-[24px] lg:text-2xl text-6xl font-bold footer-main">
                   Paris, France
                 </p>
 
@@ -47,7 +47,7 @@ const Contact = () => {
                 </p>
               </div>
               <div className="relative space-y-5">
-                <p className="md:text-[24px] lg:text-2xl text-7xl  font-bold footer-main">
+                <p className="md:text-[24px] lg:text-2xl text-6xl  font-bold footer-main">
                   Information
                 </p>
 
@@ -60,11 +60,11 @@ const Contact = () => {
             </div>
             <div className="flex flex-col md:gap-5 gap-20 mt-14 md:mt-0 ml-28 md:ml-0">
               <div className="relative md:space-y-5 space-y-9">
-                <p className="md:text-[24px] lg:text-2xl text-7xl  font-bold footer-main">
+                <p className="md:text-[24px] lg:text-2xl text-6xl  font-bold footer-main">
                   Opening Hours
                 </p>
 
-                <span className="md:top-[10px] top-[44px] absolute md:w-14 w-44 md:h-[4px] h-[8px] bg-[#ff0366] lg:block hidden"></span>
+                <span className="md:top-[10px] top-[38px] absolute md:w-14 w-44 md:h-[4px] h-[8px] bg-[#ff0366]"></span>
                 <p className="text-gray-500 text-[44px] md:text-lg">
                   Mon to Fri: 7:00 am — 21:00 pm
                   <br />
@@ -74,7 +74,7 @@ const Contact = () => {
                 </p>
               </div>
               <div className="relative space-y-5">
-                <p className="md:text-[24px] lg:text-2xl text-7xl  font-bold footer-main">
+                <p className="md:text-[24px] lg:text-2xl text-6xl  font-bold footer-main">
                   Follow Us On
                 </p>
 

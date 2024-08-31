@@ -75,8 +75,8 @@ const NavBar = () => {
           </div>
           <div className="border-[rgb(255,255,255,0.3)] border-solid border-2  p-1 rounded-md hidden md:block">
             <Link href="/joinClass" className="flex items-center ">
-              <i className="bg-[#FF0336] text-white text-lg py-1 px-2 rounded-md">
-                <FiPlus className="hover:rotate-180 transition duration-700" />
+              <i className="bg-[#FF0336] text-white text-lg py-1 px-1 rounded-sm hover:rotate-180 transition duration-500">
+                <FiPlus />
               </i>
               <h3 className="text-white md:text-[11px] text-2xl font-[600] uppercase ml-2 mr-2 hover:text-red-400 transition duration-500 ">
                 join class
