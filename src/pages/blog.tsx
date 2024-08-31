@@ -1,5 +1,5 @@
 import React from "react";
-import BlogBox from "./BlogBox";
+import BlogBox from "./blogBox";
 import Img1 from "../images/blogpage/1.jpg";
 import Img2 from "../images/blogpage/2.jpg";
 import Img3 from "../images/blogpage/3.jpg";

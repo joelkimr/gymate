@@ -24,12 +24,12 @@ function NavList() {
           </Link>
         </span>
         <CustomLink href="/" title="Home" />
-        <CustomLink href="/About" title="About" />
-        <CustomLink href="/Gallery" title="Gallery" />
-        <CustomLink href="/Schedule" title="Schedule" />
-        <CustomLink href="/Blog" title="Blog" />
-        <CustomLink href="/Pricing" title="Pricing" />
-        <CustomLink href="/Contact" title="Contact" />
+        <CustomLink href="/about" title="About" />
+        <CustomLink href="/gallery" title="Gallery" />
+        <CustomLink href="/schedule" title="Schedule" />
+        <CustomLink href="/blog" title="Blog" />
+        <CustomLink href="/pricing" title="Pricing" />
+        <CustomLink href="/contact" title="Contact" />
       </ul>
     </>
   );
