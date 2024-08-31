@@ -29,8 +29,8 @@ function Pricing() {
               Exclusive Pricing Plan
             </h2>
             <p className="text-[#646464] md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
-              Gymat an unknown printer took a galley of type and scrambled
-              <br /> make a type specimen book.
+              Gymat an unknown printer took a galley of type and scrambled make
+              a type specimen book.
             </p>
           </div>
           <div className="md:flex md:flex-row flex flex-col items-center md:gap-10 gap-20 mt-16 relative z-[2]">

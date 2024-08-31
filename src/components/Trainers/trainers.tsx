@@ -35,8 +35,8 @@ function Trainers() {
               Team Of Expert Coaches
             </h2>
             <p className="text-[#646464] md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
-              Expert team of coaches helps you succeed in any goal,
-              <br /> personalized guidance and motivation provided!
+              Expert team of coaches helps you succeed in any goal, personalized
+              guidance and motivation provided!
             </p>
           </div>
 

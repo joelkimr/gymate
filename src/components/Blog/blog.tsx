@@ -22,7 +22,7 @@ function Blog() {
               Our Recent News
             </h2>
           </div>
-          <div className="md:flex md:flex-row flex flex-col gap-6 w-full mt-12 md:ml-0 ml-36">
+          <div className="md:flex md:flex-row flex flex-col gap-6 w-full mt-12 md:ml-0 ">
             <BlogBox
               date="22.03.2023"
               title="Yoga For Everyone in 2023"

@@ -51,7 +51,7 @@ const About = () => {
               </div>
 
               <div className="bg-black/80 lg:w-44 md:w-64 w-80 text-center lg:text-sm md:text-xl text-3xl text-white font-light md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm mt-16 md:ml-0 ml-36">
-                <Link href="/Contact">CONTACT US</Link>
+                <Link href="/contact">CONTACT US</Link>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ const About = () => {
                   <h2 className="md:text-[36px] text-[60px] font-bold mt-3">
                     Our History
                   </h2>
-                  <p className="md:text-[16px] text-[40px] text-[#646464] mt-5">
+                  <p className="md:text-[16px] text-[40px] text-[#646464] mt-5 ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias autem tempore facere esse nam in rem vero
                     assumenda aperiam debitis facilis velit, optio quam

@@ -76,7 +76,7 @@ function About() {
                 </div>
               </div>
               <div className="bg-black/80 lg:w-44 md:w-52 w-80 text-center lg:text-sm md:text-lg text-4xl text-white font-[600] md:p-4 p-7 hover:bg-secondary transition duration-300 rounded-sm lg:ml-0 md:ml-[11.8rem] ml-[29rem] -mt-12 md:-mt-28 lg:-mt-0">
-                <Link href="/Gallery">TAKE A TOUR</Link>
+                <Link href="/gallery">TAKE A TOUR</Link>
               </div>
             </div>
 

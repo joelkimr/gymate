@@ -20,7 +20,7 @@ function ChooseUs() {
             />
           </div>
 
-          <div className="relative w-full flex flex-col items-center lg:w-[50%] md:w-[70%] md:flex md:flex-col md:items-center">
+          <div className="relative w-full flex flex-col items-center lg:w-1/2 md:w-[70%] md:flex md:flex-col md:items-center">
             <p className="text-white relative z-10 md:text-lg text-4xl uppercase font-bold md:mb-14 mb-20 lg:text-sm ml-[5rem] lg:ml-12 md:pr-11 md:pl-0 pl- md:pt-0 pt-3">
               why choose us
             </p>
@@ -29,17 +29,17 @@ function ChooseUs() {
               alt="text_bg"
               className="md:w-64 w-[35rem] lg:w-44 absolute -top-3 lg:-top-1 md:ml-0 ml-20"
             />
-            <h2 className="lg:text-4xl md:text-[3rem] text-5xl text-white font-bold leading-[1.2] max-w-3xl text-center">
+            <h2 className="lg:text-4xl md:text-[3rem] text-6xl text-white font-bold stext-center">
               We Can Give A Shape Of Your Body Here!
             </h2>
-            <p className="lg:text-sm md:text-lg text-[#b4b4b4] mt-7 text-4xl max-w-3xl md:ml-0 ml-12">
+            <p className="lg:text-sm md:text-lg text-[#b4b4b4] mt-28 md:mt-9 text-4xl md:ml-0 ml-12">
               At <b>Gymate</b>, we are dedicated to helping you achieve the body
               of your dreams. Our expert trainers and nutritionists will work
               with you to create a personalized fitness and nutrition plan that
               helps you reach your specific goals.
             </p>
 
-            <div className="md:grid md:grid-cols-2 md:grid-rows-2 md:gap-14 max-w-[44rem] mt-20 space-y-12 md:space-y-0 ml-32 md:ml-0 md:mt-0">
+            <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-2 md:gap-14 gap-11 mt-28 space-y-12 md:space-y-0 md:ml-0 md:mt-14">
               <div className="flex items-center gap-3">
                 <Image
                   className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 md:w-20 w-32 rounded-full p-3"
@@ -83,8 +83,10 @@ function ChooseUs() {
                   Fresh Bottle Watter
                 </p>
               </div>
-              <div className="bg-white lg:w-44 md:w-56 w-96 h-auto lg:text-base md:text-xl text-4xl text-center text-black font-[600] p-6 hover:bg-secondary hover:text-white transition duration-300 rounded-sm md:ml-48 ml-[6rem]">
-                <Link href="/Schedule">OUR CLASSES</Link>
+            </div>
+            <div className="mt-20 md:mt-12">
+              <div className="bg-white lg:w-44 md:w-56 w-96 h-auto lg:text-base md:text-xl text-4xl text-center text-black font-[600] p-6 hover:bg-secondary hover:text-white transition duration-300 rounded-sm">
+                <Link href="/schedule">OUR CLASSES</Link>
               </div>
             </div>
           </div>

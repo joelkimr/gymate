@@ -199,9 +199,9 @@ const Schedule = () => {
                   onClick={() => {
                     setSelected(key);
                   }}
-                  className={`md:w-32 md:h-10 w-72 lg:w-28 xl:w-40 h-20 inline-flex items-center justify-center text-center md:text-[16px] text-[44px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl ${
+                  className={`md:w-32 md:h-10 w-[22rem] lg:w-28 xl:w-40 h-20 inline-flex items-center justify-center text-center md:text-[16px]  text-[44px] border border-solid border-[#dee2e6] font-medium rounded-3xl  ease-in duration-300 hover:shadow-2xl hover:bg-[#ff0336] hover:text-white ${
                     selected === key
-                      ? "bg-[#ff0336] text-white"
+                      ? "bg-[#ff0336] text-white "
                       : "bg-none text-black"
                   }`}
                 >
@@ -257,7 +257,7 @@ const RowOne = ({ data }: { data: any }) => {
             </li>
             <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full items-center flex md:justify-end justify-center">
               <Link
-                href="/JoinClass"
+                href="/joinClass"
                 className="text-white md:text-[15px] text-4xl font-medium bg-[#555] md:py-[3px] lg:py-[1px] py-[25px] md:px-[20px] px-[35px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200"
               >
                 Join Now

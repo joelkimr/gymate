@@ -212,7 +212,7 @@ const JoinClass = () => {
               <p className="text-white md:text-sm text-[37px] mt-16 md:mt-0">
                 Already have an account ?{" "}
                 <span className="text-[#F73F36] font-bold hover:underline">
-                  <Link href="/Login">Sign in</Link>
+                  <Link href="/login">Sign in</Link>
                 </span>
               </p>
             </div>
