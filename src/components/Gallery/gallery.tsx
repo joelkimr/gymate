@@ -6,7 +6,11 @@ function Gallery() {
   return (
     <>
       <section className="relative w-full">
-        <Image src={BgIcon} alt="bg_img" className="w-64 absolute -top-3" />
+        <Image
+          src={BgIcon}
+          alt="bg_img"
+          className="w-64 absolute -top-3 xxl:left-[35rem]"
+        />
 
         <div className="container page-padding py-12">
           <div className="flex flex-col text-center relative items-center ">
@@ -30,7 +34,6 @@ function Gallery() {
             </p>
           </div>
 
-          {/* gallery */}
           <div className="gallery-grid py-16 w-full h-auto relative ">
             <div id="item-0"></div>
             <div id="item-1"></div>

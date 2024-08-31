@@ -8,11 +8,11 @@ import { SiFacebook } from "@react-icons/all-files/si/SiFacebook";
 function Hero() {
   return (
     <>
-      <section className="hero-section w-full]">
+      <section className="hero-section">
         <div className="container-hero">
           <div
             className="flex flex-col text-white md:w-auto
-           absolute md:-right-[7rem] lg:right-52 lg:top-40 xl:top-64 md:top-[10rem] top-96 md:left-auto left-60  w-[48rem] 2xl:right-[50rem] 
+           absolute md:-right-[7rem] lg:right-52 lg:top-40 xl:top-64 md:top-[10rem] top-96 md:left-auto left-60  w-[48rem] xxl:right-[50rem] 
            "
           >
             <p className="text-white lg:text-sm md:text-xl text-[43px] uppercase font-medium relative z-10 lg:pl-9 md:pl-14 pl-36 mb-8 lg:block md:hidden block lg:-top-1">
@@ -34,7 +34,7 @@ function Hero() {
 
         <div
           className="flex flex-row-reverse -rotate-90 text-white
-          absolute lg:top-2/4 md:top-2/3 xl:-right-20 lg:-right-20 items-center md:-right-[28rem] right-[40rem] 2xl:right-[38rem]"
+          absolute lg:top-2/4 md:top-2/3 xl:-right-20 lg:-right-20 items-center md:-right-[28rem] right-[40rem] xxl:right-[33rem]"
         >
           <p className="uppercase lg:text-md md:text-sm font-bold tracking-widest ">
             share

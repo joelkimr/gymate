@@ -14,7 +14,11 @@ function Pricing() {
     <>
       <section className="pricing-section relative w-full">
         <div className="container page-padding py-16">
-          <Image src={BgText} className="left-0 absolute" alt="bg_img" />
+          <Image
+            src={BgText}
+            className="left-0 xxl:left-[35rem] absolute"
+            alt="bg_img"
+          />
           <div className="flex flex-col text-center relative items-center">
             <p className="text-white relative z-10 md:text-lg uppercase font-bold md:mb-10 lg:text-xs text-4xl md:pt-0 pt-3 lg:pt-0 md:ml-0 ml-3">
               PRICING CHART
@@ -29,7 +33,7 @@ function Pricing() {
               Exclusive Pricing Plan
             </h2>
             <p className="text-[#646464] md:text-lg lg:text-sm text-4xl md:mt-0 mt-12">
-              Gymat an unknown printer took a galley of type and scrambled make
+              Gymate an unknown printer took a galley of type and scrambled make
               a type specimen book.
             </p>
           </div>
@@ -41,7 +45,7 @@ function Pricing() {
           <Image
             src={BgDumbell}
             alt="bg_icon"
-            className="right-0 bottom-0 absolute z-[1]"
+            className="right-0 xxl:right-[35rem] bottom-0 absolute z-[1]"
           />
         </div>
       </section>
