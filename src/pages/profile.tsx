@@ -100,14 +100,14 @@ const Profile = () => {
         </div>
         <div className=" w-full bg-red-100 flex flex-row justify-around md:p-4 p-8 md:mt-6 mt-28">
           <div>
-            <p className="flex items center gap-2 md:text-lg text-5xl">
+            <p className="flex items-center gap-2 md:text-lg text-5xl">
               <IoPersonOutline className="text-black/50 md:text-xl text-5xl" />
               My Account
             </p>
           </div>
           <div>
             <button type="button" onClick={handleSignout}>
-              <p className="flex items center gap-2 text-[#FF0336] hover:text-red-400  md:text-lg text-5xl">
+              <p className="flex items-center gap-2 text-[#FF0336] hover:text-red-400  md:text-lg text-5xl">
                 <PiSignOutDuotone className=" md:text-xl text-5xl" />
                 Sign out
               </p>
