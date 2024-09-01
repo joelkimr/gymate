@@ -67,50 +67,58 @@ const Profile = () => {
           My Profile
         </h1>
       </div>
-      <div className="lg:w-5/12 md:w-6/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] border-[1px] border-black/30">
-        <div className="w-full flex flex-col bg-white pb-6">
-          <div className="w-full flex flex-row justify-start p-4">
-            <div className="w-32 h-32 rounded-full border-[1px] border-black/30 flex items-center justify-center">
+      <p className="text-7xl text-center block md:hidden mx-auto mt-20">
+        My Profile
+      </p>
+      <div className="xl:w-5/12 lg:w-7/12 md:w-7/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] border-[1px] border-black/30 rounded-lg">
+        <div className="w-full flex flex-col bg-white md:pb-6 pb-32 rounded-tl-lg rounded-tr-lg">
+          <div className="w-full flex flex-row justify-start md:p-4 p-16 gap-12 md:gap-0">
+            <div className="md:w-32 w-48 md:h-32 h-48 rounded-full border-[1px] border-black/30 flex items-center justify-center">
               <GoPersonFill className="text-8xl text-black/30" />
             </div>
-            <div className="w-3/4 flex flex-col justify-center p-4 space-y-2">
-              <p>
+            <div className="w-3/4 flex flex-col justify-center p-4 md:space-y-2 space-y-6">
+              <p className="md:text-lg text-5xl">
                 First Name :{" "}
                 <span className="font-bold">{user?.first_name}</span>
               </p>
-              <p>
+              <p className="md:text-lg text-5xl">
                 Last Name : <span className="font-bold">{user?.last_name}</span>
               </p>
-              <p>Telephone Number : {user?.phone_number}</p>
+              <p className="md:text-lg text-5xl">
+                Phone Number : {user?.phone_number}
+              </p>
             </div>
           </div>
           <div className="w-2/3 pl-12">
-            <p className="font-bold">
-              Category : <span className="text-[#FF0336] ml-8">Advanced</span>
+            <p className="font-bold md:text-lg text-5xl">
+              Category :{" "}
+              <span className="text-[#FF0336] ml-8 md:text-xl text-6xl">
+                Advanced
+              </span>
             </p>
           </div>
         </div>
-        <div className=" w-full bg-red-100 flex flex-row justify-around p-4 mt-6">
+        <div className=" w-full bg-red-100 flex flex-row justify-around md:p-4 p-8 md:mt-6 mt-28">
           <div>
-            <p className="flex items center gap-2">
-              <IoPersonOutline className="text-xl text-black/50" />
+            <p className="flex items center gap-2 md:text-lg text-5xl">
+              <IoPersonOutline className="text-black/50 md:text-xl text-5xl" />
               My Account
             </p>
           </div>
           <div>
             <button type="button" onClick={handleSignout}>
-              <p className="flex items center gap-2 text-red-400 hover:text-[#FF0336]">
-                <PiSignOutDuotone className="text-xl" />
+              <p className="flex items center gap-2 text-[#FF0336] hover:text-red-400  md:text-lg text-5xl">
+                <PiSignOutDuotone className=" md:text-xl text-5xl" />
                 Sign out
               </p>
             </button>
           </div>
         </div>
-        <div className="mx-12 mt-6">
-          <p className="text-black/60">
+        <div className="mx-12 md:mt-6 mt-24">
+          <p className="text-black/60 md:text-xl text-6xl">
             {" "}
             Selected class :{" "}
-            <span className="font-bold text-xl text-black">
+            <span className="font-bold md:text-xl text-7xl text-black">
               {" "}
               {user?.course}
             </span>
@@ -124,7 +132,7 @@ const Profile = () => {
             }}
             name="classes"
             id="class"
-            className="w-full bg-white border border-black/30 md:h-16 h-48 rounded-sm md:p-2 p-8 py-4 md:mt-4 mt-20 text-gray-700 focus:outline-none md:text-sm text-4xl"
+            className="w-full bg-white border border-black/30 md:h-16 h-48 rounded-sm md:p-2 p-8 py-4 md:mt-4 mt-20 text-gray-700 focus:outline-none md:text-xl text-6xl"
           >
             <option value="#">Select Class</option>
             <option value="Cycling">Cycling</option>
@@ -139,20 +147,29 @@ const Profile = () => {
             <option value="Cardio">Cardio</option>
           </select>
         </div>
-        <div className="w-full p-6 text-center mt-6 bg-white mb-20">
-          <h3 className="text-xl font-bold">Days of the Week</h3>
-          <div className="flex flex-row justify-evenly mt-6">
-            <p>Monday</p>
-            <p className="text-black/40">4:00pm - 7:00pm</p>
+        <div className="w-full md:p-6 p-20 text-center md:mt-6 mt-28 bg-gray-100">
+          <h3 className="md:text-xl text-6xl font-bold underline">
+            Days of the Week
+          </h3>
+          <div className="flex flex-row justify-evenly md:mt-6 mt-20">
+            <p className="md:text-xl text-5xl">Monday</p>
+            <p className="text-black/40 md:text-xl text-5xl">4:00pm - 7:00pm</p>
           </div>
-          <div className="flex flex-row justify-evenly mt-3">
-            <p>Wednesday</p>
-            <p className="text-black/40">8:00am - 10:00am</p>
+          <div className="flex flex-row justify-evenly md:mt-3 mt-11">
+            <p className="md:text-xl text-5xl">Wednesday</p>
+            <p className="text-black/40 md:text-xl text-5xl">
+              8:00am - 10:00am
+            </p>
           </div>
-          <div className="flex flex-row justify-evenly mt-3">
-            <p>Friday</p>
-            <p className="text-black/40">9:00am - 1:00pm</p>
+          <div className="flex flex-row justify-evenly md:mt-3 mt-11">
+            <p className="md:text-xl text-5xl">Friday</p>
+            <p className="text-black/40 md:text-xl text-5xl">9:00am - 1:00pm</p>
           </div>
+        </div>
+        <div className="text-center mx-auto md:mt-10 mt-28 md:mb-20 mb-48">
+          <p className="text-green-400 md:text-xl text-5xl">
+            Your Updates are Automatically Saved!
+          </p>
         </div>
       </div>
       <Footer />
