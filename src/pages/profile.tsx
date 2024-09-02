@@ -70,27 +70,27 @@ const Profile = () => {
       <p className="text-7xl text-center block md:hidden mx-auto mt-20">
         My Profile
       </p>
-      <div className="xl:w-5/12 lg:w-7/12 md:w-7/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] border-[1px] border-black/30 rounded-lg">
+      <div className="xl:w-5/12 lg:w-7/12 md:w-7/12 w-11/12 mx-auto md:mt-8 mt-16 md:mb-20 mb-36 relative z-[9] border-[4px] md:border-[1px] border-black/30 rounded-lg">
         <div className="w-full flex flex-col bg-white md:pb-6 pb-32 rounded-tl-lg rounded-tr-lg">
-          <div className="w-full flex flex-row justify-start md:p-4 p-16 gap-12 md:gap-0">
-            <div className="md:w-32 w-48 md:h-32 h-48 rounded-full border-[1px] border-black/30 flex items-center justify-center">
+          <div className="w-full flex flex-row justify-start md:p-4 p-12 gap-8 md:gap-0">
+            <div className="md:w-32 w-52 md:h-32 h-52 rounded-full border-[1px] border-black/30 flex items-center justify-center">
               <GoPersonFill className="text-8xl text-black/30" />
             </div>
             <div className="w-3/4 flex flex-col justify-center p-4 md:space-y-2 space-y-6">
-              <p className="md:text-lg text-5xl">
+              <p className="md:text-lg text-[42px]">
                 First Name :{" "}
                 <span className="font-bold">{user?.first_name}</span>
               </p>
-              <p className="md:text-lg text-5xl">
+              <p className="md:text-lg text-[42px]">
                 Last Name : <span className="font-bold">{user?.last_name}</span>
               </p>
-              <p className="md:text-lg text-5xl">
+              <p className="md:text-lg text-[42px]">
                 Phone Number : {user?.phone_number}
               </p>
             </div>
           </div>
           <div className="w-2/3 pl-12">
-            <p className="font-bold md:text-lg text-5xl">
+            <p className="font-bold md:text-lg text-[42px]">
               Category :{" "}
               <span className="text-[#FF0336] ml-8 md:text-xl text-6xl">
                 Advanced
@@ -100,14 +100,14 @@ const Profile = () => {
         </div>
         <div className=" w-full bg-red-100 flex flex-row justify-around md:p-4 p-8 md:mt-6 mt-28">
           <div>
-            <p className="flex items-center gap-2 md:text-lg text-5xl">
+            <p className="flex items-center gap-2 md:text-lg text-[42px]">
               <IoPersonOutline className="text-black/50 md:text-xl text-5xl" />
               My Account
             </p>
           </div>
           <div>
             <button type="button" onClick={handleSignout}>
-              <p className="flex items-center gap-2 text-[#FF0336] hover:text-red-400  md:text-lg text-5xl">
+              <p className="flex items-center gap-2 text-[#FF0336] hover:text-red-400  md:text-lg text-[42px]">
                 <PiSignOutDuotone className=" md:text-xl text-5xl" />
                 Sign out
               </p>
@@ -115,7 +115,7 @@ const Profile = () => {
           </div>
         </div>
         <div className="mx-12 md:mt-6 mt-24">
-          <p className="text-black/60 md:text-xl text-6xl">
+          <p className="text-black/60 md:text-xl text-5xl">
             {" "}
             Selected class :{" "}
             <span className="font-bold md:text-xl text-7xl text-black">
@@ -132,7 +132,7 @@ const Profile = () => {
             }}
             name="classes"
             id="class"
-            className="w-full bg-white border border-black/30 md:h-16 h-48 rounded-sm md:p-2 p-8 py-4 md:mt-4 mt-20 text-gray-700 focus:outline-none md:text-xl text-6xl"
+            className="w-full bg-white border border-black/30 md:h-16 h-48 rounded-sm md:p-2 p-8 py-4 md:mt-4 mt-20 text-gray-700 focus:outline-none md:text-xl text-5xl"
           >
             <option value="#">Select Class</option>
             <option value="Cycling">Cycling</option>
@@ -148,26 +148,30 @@ const Profile = () => {
           </select>
         </div>
         <div className="w-full md:p-6 p-20 text-center md:mt-6 mt-28 bg-gray-100">
-          <h3 className="md:text-xl text-6xl font-bold underline">
+          <h3 className="md:text-xl text-5xl font-bold underline">
             Days of the Week
           </h3>
           <div className="flex flex-row justify-evenly md:mt-6 mt-20">
-            <p className="md:text-xl text-5xl">Monday</p>
-            <p className="text-black/40 md:text-xl text-5xl">4:00pm - 7:00pm</p>
+            <p className="md:text-xl text-[42px]">Monday</p>
+            <p className="text-black/40 md:text-xl text-[42px]">
+              4:00pm - 7:00pm
+            </p>
           </div>
           <div className="flex flex-row justify-evenly md:mt-3 mt-11">
-            <p className="md:text-xl text-5xl">Wednesday</p>
-            <p className="text-black/40 md:text-xl text-5xl">
+            <p className="md:text-xl text-[42px]">Wednesday</p>
+            <p className="text-black/40 md:text-xl text-[42px]">
               8:00am - 10:00am
             </p>
           </div>
           <div className="flex flex-row justify-evenly md:mt-3 mt-11">
-            <p className="md:text-xl text-5xl">Friday</p>
-            <p className="text-black/40 md:text-xl text-5xl">9:00am - 1:00pm</p>
+            <p className="md:text-xl text-[42px]">Friday</p>
+            <p className="text-black/40 md:text-xl text-[42px]">
+              9:00am - 1:00pm
+            </p>
           </div>
         </div>
         <div className="text-center mx-auto md:mt-10 mt-28 md:mb-20 mb-48">
-          <p className="text-green-400 md:text-xl text-5xl">
+          <p className="text-green-400 md:text-xl text-[42px]">
             Your Updates are Automatically Saved!
           </p>
         </div>

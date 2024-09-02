@@ -44,7 +44,7 @@ const Login = () => {
       } else if (err.code === "auth/wrong-password") {
         setErrors("Wrong Email or Password.");
       } else {
-        setErrors("Unknown Error");
+        setErrors("Check Your Internet Connection!");
       }
       console.log({ err });
     }
