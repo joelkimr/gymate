@@ -14,7 +14,7 @@ function BlogBox({ date, title, description }) {
         </p>
         <Link
           href='/blogs'
-          className='md:text-lg text-3xl lg:text-xs uppercase font-bold mt-10 md:w-44 w-60 md:h-14 lg:w-24 h-24 lg:h-9 bg-secondary text-white text-center md:pt-4 md:p-3 p-6 lg:pt-2 rounded-lg md:rounded-sm'>
+          className='md:text-lg text-3xl lg:text-xs uppercase font-bold mt-10 md:w-44 w-60 md:h-14 lg:w-36 h-24 lg:h-9 bg-secondary text-white text-center md:pt-4 md:p-3 p-6 lg:pt-2 rounded-lg md:rounded-sm'>
           Read more
         </Link>
       </div>
