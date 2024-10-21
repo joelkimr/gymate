@@ -171,8 +171,8 @@ const Profile = () => {
           </div>
         </div>
         <div className="text-center mx-auto md:mt-10 mt-28 md:mb-20 mb-48">
-          <p className="text-green-400 md:text-xl text-[42px]">
-            Your Updates are Automatically Saved!
+          <p className="text-green-400 md:text-lg text-[42px]">
+            your changes are automatically saved!
           </p>
         </div>
       </div>
